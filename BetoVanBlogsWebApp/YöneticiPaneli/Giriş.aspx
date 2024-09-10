@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <link href="CSS/GirişStil.css" rel="stylesheet" />
-    <title>Giriş Sayfası</title>
+    <title>Yönetici Giriş Sayfası</title>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -19,7 +19,7 @@
                 </asp:Panel>
                 <div class="Satır">
                     <label>Mail</label><br />
-                    <asp:TextBox ID="tb_mail" runat="server" CssClass="MetinKutu" placeholder="ornek@ornek.com" Text="bberksmkk@gmail.com"></asp:TextBox>
+                    <asp:TextBox ID="tb_mail" runat="server" CssClass="MetinKutu" placeholder="ornek@ornek.com" Text="bberksmskk@gmail.com"></asp:TextBox>
                 </div>
                 <div class="Satır">
                     <label>Şifre</label><br />

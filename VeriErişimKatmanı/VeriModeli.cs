@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace VeriErisimKatmani
+namespace VeriErişimKatmanı
 {
     public class VeriModeli
     {
@@ -61,6 +61,240 @@ namespace VeriErisimKatmani
             catch
             {
                 return null;
+            }
+            finally
+            {
+                Bağlantı.Close();
+            }
+        }
+
+        #endregion
+
+        #region Kategori Metotları
+
+        public bool KategoriEkle(Kategori kat)
+        {
+            try
+            {
+                Komut.CommandText = "INSERT INTO Kategoriler(Isim,Aciklama,Durum,Silinmis) VALUES(@isim,@aciklama,@durum,@silinmis)";
+                Komut.Parameters.Clear();
+                Komut.Parameters.AddWithValue("@isim", kat.Isim);
+                Komut.Parameters.AddWithValue("@aciklama", kat.Aciklama);
+                Komut.Parameters.AddWithValue("@durum", kat.Durum);
+                Komut.Parameters.AddWithValue("@silinmis", kat.Silinmis);
+                Bağlantı.Open();
+                Komut.ExecuteNonQuery();
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+            finally
+            {
+                Bağlantı.Close();
+            }
+        }
+
+        public List<Kategori> KategoriListele()
+        {
+            List<Kategori> kategoriler = new List<Kategori>();
+
+            try
+            {
+                Komut.CommandText = "SELECT ID, Isim, Aciklama, Durum, Silinmis FROM Kategoriler ";
+                Komut.Parameters.Clear();
+                Bağlantı.Open();
+                SqlDataReader reader = Komut.ExecuteReader();
+                while (reader.Read())
+                {
+                    Kategori kat = new Kategori();
+                    kat.ID = reader.GetInt32(0);
+                    kat.Isim = reader.GetString(1);
+                    kat.Aciklama = reader.GetString(2);
+                    kat.Durum = reader.GetBoolean(3);
+                    kat.Silinmis = reader.GetBoolean(4);
+                    kategoriler.Add(kat);
+                }
+                return kategoriler;
+            }
+            catch
+            {
+                return null;
+            }
+            finally
+            {
+                Bağlantı.Close();
+            }
+        }
+
+        public List<Kategori> KategoriListele(bool silinmis)
+        {
+            List<Kategori> kategoriler = new List<Kategori>();
+
+            try
+            {
+                Komut.CommandText = "SELECT ID, Isim, Aciklama, Durum, Silinmis FROM Kategoriler WHERE Silinmis=@silinmis";
+                Komut.Parameters.Clear();
+                Komut.Parameters.AddWithValue("@silinmis", silinmis);
+                Bağlantı.Open();
+                SqlDataReader reader = Komut.ExecuteReader();
+                while (reader.Read())
+                {
+                    Kategori kat = new Kategori();
+                    kat.ID = reader.GetInt32(0);
+                    kat.Isim = reader.GetString(1);
+                    kat.Aciklama = reader.GetString(2);
+                    kat.Durum = reader.GetBoolean(3);
+                    kat.Silinmis = reader.GetBoolean(4);
+                    kategoriler.Add(kat);
+                }
+                return kategoriler;
+            }
+            catch
+            {
+                return null;
+            }
+            finally
+            {
+                Bağlantı.Close();
+            }
+        }
+        public List<Kategori> KategoriListele(bool silinmis, bool durum)
+        {
+            List<Kategori> kategoriler = new List<Kategori>();
+
+            try
+            {
+                Komut.CommandText = "SELECT ID, Isim, Aciklama, Durum, Silinmis FROM Kategoriler WHERE Silinmis=@silinmis AND Durum =@durum";
+                Komut.Parameters.Clear();
+                Komut.Parameters.AddWithValue("@silinmis", silinmis);
+                Komut.Parameters.AddWithValue("@durum", durum);
+                Bağlantı.Open();
+                SqlDataReader reader = Komut.ExecuteReader();
+                while (reader.Read())
+                {
+                    Kategori kat = new Kategori();
+                    kat.ID = reader.GetInt32(0);
+                    kat.Isim = reader.GetString(1);
+                    kat.Aciklama = reader.GetString(2);
+                    kat.Durum = reader.GetBoolean(3);
+                    kat.Silinmis = reader.GetBoolean(4);
+                    kategoriler.Add(kat);
+                }
+                return kategoriler;
+            }
+            catch
+            {
+                return null;
+            }
+            finally
+            {
+                Bağlantı.Close();
+            }
+        }
+
+        public void KategoriSilHardDelete(int id)
+        {
+            try
+            {
+                Komut.CommandText = "DELETE FROM Kategoriler WHERE ID=@id";
+                Komut.Parameters.Clear();
+                Komut.Parameters.AddWithValue("@id", id);
+                Bağlantı.Open();
+                Komut.ExecuteNonQuery();
+            }
+            finally
+            {
+                Bağlantı.Close();
+            }
+        }
+
+        public void KategoriSil(int id)
+        {
+            try
+            {
+                Komut.CommandText = "UPDATE Kategoriler SET Silinmis = 1 WHERE ID=@id";
+                Komut.Parameters.Clear();
+                Komut.Parameters.AddWithValue("@id", id);
+                Bağlantı.Open();
+                Komut.ExecuteNonQuery();
+            }
+            finally
+            {
+                Bağlantı.Close();
+            }
+        }
+
+        public void KategoriDurumDegistir(int id)
+        {
+            try
+            {
+                Komut.CommandText = "SELECT Durum FROM Kategoriler WHERE ID = @id";
+                Komut.Parameters.Clear();
+                Komut.Parameters.AddWithValue("@id", id);
+                Bağlantı.Open();
+                bool durum = Convert.ToBoolean(Komut.ExecuteScalar());
+                Komut.CommandText = "UPDATE Kategoriler SET Durum=@durum WHERE ID = @id";
+                Komut.Parameters.Clear();
+                Komut.Parameters.AddWithValue("@durum", !durum);
+                Komut.Parameters.AddWithValue("@id", id);
+                Komut.ExecuteNonQuery();
+            }
+            finally
+            {
+                Bağlantı.Close();
+            }
+        }
+
+        public Kategori KategoriGetir(int id)
+        {
+            try
+            {
+                Komut.CommandText = "SELECT ID, Isim, Aciklama, Durum, Silinmis FROM Kategoriler WHERE ID=@id";
+                Komut.Parameters.Clear();
+                Komut.Parameters.AddWithValue("@id", id);
+                Bağlantı.Open();
+                SqlDataReader okuyucu = Komut.ExecuteReader();
+                Kategori kat = new Kategori();
+
+                while (okuyucu.Read())
+                {
+                    kat.ID = okuyucu.GetInt32(0);
+                    kat.Isim = okuyucu.GetString(1);
+                    kat.Aciklama = okuyucu.GetString(2);
+                    kat.Durum = okuyucu.GetBoolean(3);
+                    kat.Silinmis = okuyucu.GetBoolean(4);
+                }
+                return kat;
+            }
+            catch
+            {
+                return null;
+            }
+            finally
+            {
+                Bağlantı.Close();
+            }
+        }
+
+        public bool KategoriGuncelle(Kategori k)
+        {
+            try
+            {
+                Komut.CommandText = "UPDATE Kategoriler SET Isim=@isim, Aciklama=@aciklama, Durum=@durum WHERE ID=@id";
+                Komut.Parameters.Clear();
+                Komut.Parameters.AddWithValue("@id", k.ID);
+                Komut.Parameters.AddWithValue("@isim", k.Isim);
+                Komut.Parameters.AddWithValue("@aciklama", k.Aciklama);
+                Komut.Parameters.AddWithValue("@durum", k.Durum);
+                Bağlantı.Open();
+                Komut.ExecuteNonQuery();
+                return true;
+            }
+            catch
+            {
+                return false;
             }
             finally
             {

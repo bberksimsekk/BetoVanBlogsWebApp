@@ -5,7 +5,7 @@ VisualStudioVersion = 17.11.35219.272
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetoVanBlogsWebApp", "BetoVanBlogsWebApp\BetoVanBlogsWebApp.csproj", "{29F7F8A6-CC1C-4334-9CD4-AF265ACAC1B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VeriErisimKatmani", "VeriErişimKatmanı\VeriErisimKatmani.csproj", "{82CC2ED0-EDE2-41F2-8B5C-2110635B82C8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VeriErişimKatmanı", "VeriErişimKatmanı\VeriErişimKatmanı.csproj", "{82CC2ED0-EDE2-41F2-8B5C-2110635B82C8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

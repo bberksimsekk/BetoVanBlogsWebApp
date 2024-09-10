@@ -1,0 +1,72 @@
+﻿.FormTaşıyıcı
+{
+    width: 1400px;
+}
+
+.FormBaşlık
+{
+    background-color: #ededed;
+    padding: 10px;
+    border: 1px solid silver;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.Formİçerik 
+{
+    padding: 20px;
+    border: 1px solid silver;
+    border-top: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.Satır
+{
+    padding: 10px 0;
+}
+
+.MetinKutu 
+{
+    width: 98%;
+    padding: 7px;
+}
+
+.BölünmüşMetinKutu
+{
+    width: 640px;
+    padding: 7px;
+}
+
+.İşlemButon
+{
+    padding: 10px 30px;
+    background-color: #fe4358;
+    color: white;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+.İşlemButon:hover 
+{
+    background-color: #efefef;
+    color: #fe4358;
+}
+
+.BaşarılıPanel 
+{
+    padding: 10px;
+    background-color: #42bea1;
+    color: White;
+    border-radius: 7px;
+    border: 1px solid #029774;
+}
+
+.BaşarısızPanel 
+{
+    padding: 10px;
+    background-color: #ffbdc5;
+    color: white;
+    border-radius: 7px;
+    border: 1px solid #fe4358;
+}

@@ -1,0 +1,82 @@
+﻿*, h1, h2, h3, h4, h5, h6, ul, li, ol 
+{
+    margin: 0;
+    padding: 0;
+}
+
+.Body 
+{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.ÜstÇubuk
+{
+    background-color: #FE434E;
+    min-height: 80px;
+    color: white;
+}
+
+.AnaBaşlık
+{
+    padding: 10px 20px;
+    width: 200px;
+    float: left;
+}
+
+.KullanıcıAlanı
+{
+    padding: 10px 20px;
+    width: 300px;
+    float: right;
+}
+
+.KullanıcıEleman
+{
+    padding-top: 15px;
+    padding-left: 10px;
+    color: white;
+    float: left;
+    text-decoration: none;
+}
+
+.KullanıcıEleman:hover 
+{
+    text-decoration: underline;
+}
+
+.AnaMenü
+{
+    width: 210px;
+    padding: 20px 0;
+    background-color: #e4e4e4;
+    height: 850px;
+    float: left;
+}
+
+.AnaMenü .Çizgi 
+{
+    border-bottom: 1px solid white;
+}
+
+.AnaMenü A
+{
+    text-decoration: none;
+    display: block;
+    color: #7a060d;
+    padding: 5px 15px;
+}
+
+.AnaMenü A:hover 
+{
+    color: white;
+    background-color: #d8a7a7;
+}
+
+.Anaİçerik
+{
+    float: left;
+    padding: 20px;
+}
