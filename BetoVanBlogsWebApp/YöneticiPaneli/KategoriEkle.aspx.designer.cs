@@ -69,12 +69,12 @@ namespace BetoVanBlogsWebApp.YöneticiPaneli
         protected global::System.Web.UI.WebControls.CheckBox cb_aktif;
 
         /// <summary>
-        /// lbtn_duzenle control.
+        /// lbtn_ekle control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton lbtn_duzenle;
+        protected global::System.Web.UI.WebControls.LinkButton lbtn_ekle;
     }
 }

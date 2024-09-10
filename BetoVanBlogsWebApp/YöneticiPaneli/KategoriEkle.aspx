@@ -6,11 +6,11 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="FormTaşıyıcı">
         <div class="FormBaşlık">
-            <h4>Kategori Düzenle</h4>
+            <h4>Kategori Ekle</h4>
         </div>
         <div class="Formİçerik">
             <asp:Panel ID="pnl_basarili" runat="server" CssClass="BaşarılıPanel" Visible="false">
-                <strong>Başarılı!</strong> Kategori Başarıyla Düzenlenmiştir
+                <strong>Başarılı!</strong> Kategori Başarıyla Eklenmiştir
             </asp:Panel>
             <asp:Panel ID="pnl_basarisiz" runat="server" CssClass="BaşarısızPanel" Visible="false">
                 <strong>Başarısız!</strong>
@@ -28,7 +28,7 @@
                 <asp:CheckBox ID="cb_aktif" runat="server" Text="  Kategori Aktif" />
             </div>
             <div class="Satır">
-                <asp:LinkButton ID="lbtn_duzenle" runat="server" CssClass="İşlemButon" OnClick="lbtn_duzenle_Click">Kategori Düzenle</asp:LinkButton>
+                <asp:LinkButton ID="lbtn_ekle" runat="server" CssClass="İşlemButon" OnClick="lbtn_ekle_Click">Kategori Ekle</asp:LinkButton>
             </div>
         </div>
     </div>
