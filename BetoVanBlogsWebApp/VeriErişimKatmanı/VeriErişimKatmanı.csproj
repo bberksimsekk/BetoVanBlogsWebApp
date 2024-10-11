@@ -43,9 +43,12 @@
   <ItemGroup>
     <Compile Include="BağlantıYolları.cs" />
     <Compile Include="Kategori.cs" />
+    <Compile Include="Makale.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="VeriModeli.cs" />
+    <Compile Include="Yorum.cs" />
     <Compile Include="Yönetici.cs" />
+    <Compile Include="Üye.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,10 +1,10 @@
-﻿<%@ Page Language="C#" MasterPageFile="~/YöneticiPaneli/YöneticiMaster.Master" AutoEventWireup="true" CodeBehind="KategoriListele.aspx.cs" Inherits="BetoVanBlogsWebApp.YöneticiPaneli.KategoriListele" %>
+﻿<%@ Page Language="C#" MasterPageFile="~/YöneticiPaneli/YoneticiMaster.Master" AutoEventWireup="true" CodeBehind="KategoriListele.aspx.cs" Inherits="BetoVanBlogsWebApp.YöneticiPaneli.KategoriListele" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <link href="css/ListeSayfası.css" rel="stylesheet" />
+    <link href="CSS/ListeSayfası.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div class="sayfaBaslik">
+    <div class="SayfaBaşlık">
         <h3>Kategoriler</h3>
     </div>
     <div class="tabloTasiyici">
@@ -32,7 +32,7 @@
                         <a href='KategoriDuzenle.aspx?kategoriId=<%# Eval("ID") %>' class="TabloButon Düzenle">
                             <img src="resimler/edit.png" /></a>
                         <asp:LinkButton ID="lbtn_durum" runat="server" class="TabloButon Durum" CommandArgument='<%# Eval("ID") %>' CommandName="Durum">
-                            <img src="resimler/recycle.png" />
+                            <img src="AdminResimler/recycle.png" />
                         </asp:LinkButton>
                         <asp:LinkButton ID="lbtn_sil" runat="server" class="TabloButon Sil" CommandArgument='<%# Eval("ID") %>' CommandName="Sil"> 
                             <img src="resimler/delete.png" />

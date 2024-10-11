@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" MasterPageFile="~/YöneticiPaneli/YöneticiMaster.Master" AutoEventWireup="true" CodeBehind="KategoriEkle.aspx.cs" Inherits="BetoVanBlogsWebApp.YöneticiPaneli.KategoriEkle" %>
+﻿<%@ Page Language="C#" MasterPageFile="~/YöneticiPaneli/YoneticiMaster.Master" AutoEventWireup="true" CodeBehind="KategoriEkle.aspx.cs" Inherits="BetoVanBlogsWebApp.YöneticiPaneli.KategoriEkle" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="CSS/FormSayfası.css" rel="stylesheet" />

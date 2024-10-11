@@ -13,5 +13,41 @@ namespace BetoVanBlogsWebApp.YöneticiPaneli
 
     public partial class YoneticiDefault
     {
+
+        /// <summary>
+        /// lblYoneticiSayisi control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblYoneticiSayisi;
+
+        /// <summary>
+        /// lblMakaleSayisi control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblMakaleSayisi;
+
+        /// <summary>
+        /// lblYorumSayisi control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblYorumSayisi;
+
+        /// <summary>
+        /// lblUyeSayisi control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblUyeSayisi;
     }
 }

@@ -70,3 +70,66 @@
     border-radius: 7px;
     border: 1px solid #fe4358;
 }
+
+.FormEtiket 
+{
+    color: yellow;
+}
+
+.YönetimPaneli 
+{
+    background-image: url('../adminresimler/yargibackground.jpeg');
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 60px;
+    width: 100%;
+}
+
+.Panel 
+{
+    width: 250px;
+    height: 250px;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 10px;
+}
+
+.Panel P
+{
+    font-size: 20pt;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.Panel Img 
+{
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin: 15px auto 10px;
+}
+
+.YöneticiSayısı 
+{
+    font-size: 20px;
+    color: white;
+}
+
+.MakaleSayısı
+{
+    font-size: 20px;
+    color: white;
+}
+
+.YorumSayısı 
+{
+    font-size: 20px;
+    color: white;
+}
+
+.ÜyeSayısı
+{
+    font-size: 20px;
+    color: white;
+}

@@ -4,3 +4,9 @@ C:\Users\Huawei\Documents\GitHub\BetoVanBlogsWebApp\VeriErişimKatmanı\obj\Debu
 C:\Users\Huawei\Documents\GitHub\BetoVanBlogsWebApp\VeriErişimKatmanı\obj\Debug\VeriErişimKatmanı.csproj.CoreCompileInputs.cache
 C:\Users\Huawei\Documents\GitHub\BetoVanBlogsWebApp\VeriErişimKatmanı\obj\Debug\VeriErişimKatmanı.dll
 C:\Users\Huawei\Documents\GitHub\BetoVanBlogsWebApp\VeriErişimKatmanı\obj\Debug\VeriErişimKatmanı.pdb
+C:\Users\Huawei\Documents\GitHub\BetoVanBlogsWebApp\BetoVanBlogsWebApp\VeriErişimKatmanı\bin\Debug\VeriErişimKatmanı.dll
+C:\Users\Huawei\Documents\GitHub\BetoVanBlogsWebApp\BetoVanBlogsWebApp\VeriErişimKatmanı\bin\Debug\VeriErişimKatmanı.pdb
+C:\Users\Huawei\Documents\GitHub\BetoVanBlogsWebApp\BetoVanBlogsWebApp\VeriErişimKatmanı\obj\Debug\VeriErişimKatmanı.csproj.AssemblyReference.cache
+C:\Users\Huawei\Documents\GitHub\BetoVanBlogsWebApp\BetoVanBlogsWebApp\VeriErişimKatmanı\obj\Debug\VeriErişimKatmanı.csproj.CoreCompileInputs.cache
+C:\Users\Huawei\Documents\GitHub\BetoVanBlogsWebApp\BetoVanBlogsWebApp\VeriErişimKatmanı\obj\Debug\VeriErişimKatmanı.dll
+C:\Users\Huawei\Documents\GitHub\BetoVanBlogsWebApp\BetoVanBlogsWebApp\VeriErişimKatmanı\obj\Debug\VeriErişimKatmanı.pdb

@@ -69,6 +69,322 @@
   <ItemGroup>
     <Content Include="Default.aspx" />
     <Content Include="Web.config" />
+    <Content Include="YöneticiPaneli\AdminResimler\add.png" />
+    <Content Include="YöneticiPaneli\AdminResimler\background.jpg" />
+    <Content Include="YöneticiPaneli\AdminResimler\comment.png" />
+    <Content Include="YöneticiPaneli\AdminResimler\delete.png" />
+    <Content Include="YöneticiPaneli\AdminResimler\edit.png" />
+    <Content Include="YöneticiPaneli\ckeditor\adapters\jquery.js" />
+    <Content Include="YöneticiPaneli\ckeditor\build-config.js" />
+    <Content Include="YöneticiPaneli\ckeditor\ckeditor.js" />
+    <Content Include="YöneticiPaneli\ckeditor\config.js" />
+    <Content Include="YöneticiPaneli\ckeditor\contents.css" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\af.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\ar.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\az.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\bg.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\bn.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\bs.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\ca.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\cs.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\cy.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\da.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\de-ch.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\de.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\el.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\en-au.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\en-ca.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\en-gb.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\en.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\eo.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\es-mx.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\es.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\et.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\eu.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\fa.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\fi.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\fo.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\fr-ca.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\fr.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\gl.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\gu.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\he.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\hi.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\hr.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\hu.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\id.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\is.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\it.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\ja.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\ka.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\km.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\ko.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\ku.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\lt.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\lv.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\mk.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\mn.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\ms.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\nb.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\nl.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\no.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\oc.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\pl.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\pt-br.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\pt.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\ro.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\ru.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\si.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\sk.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\sl.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\sq.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\sr-latn.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\sr.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\sv.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\th.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\tr.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\tt.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\ug.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\uk.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\vi.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\zh-cn.js" />
+    <Content Include="YöneticiPaneli\ckeditor\lang\zh.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\a11yhelp.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\af.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\ar.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\az.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\bg.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\ca.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\cs.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\cy.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\da.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\de-ch.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\de.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\el.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\en-au.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\en-gb.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\en.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\eo.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\es-mx.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\es.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\et.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\eu.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\fa.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\fi.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\fo.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\fr-ca.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\fr.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\gl.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\gu.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\he.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\hi.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\hr.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\hu.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\id.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\it.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\ja.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\km.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\ko.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\ku.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\lt.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\lv.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\mk.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\mn.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\nb.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\nl.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\no.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\oc.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\pl.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\pt-br.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\pt.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\ro.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\ru.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\si.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\sk.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\sl.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\sq.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\sr-latn.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\sr.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\sv.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\th.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\tr.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\tt.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\ug.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\uk.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\vi.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\zh-cn.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\zh.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\a11yhelp\dialogs\lang\_translationstatus.txt" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\about\dialogs\about.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\about\dialogs\hidpi\logo_ckeditor.png" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\about\dialogs\logo_ckeditor.png" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\clipboard\dialogs\paste.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\dialog\dialogDefinition.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\dialog\styles\dialog.css" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\icons.png" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\icons_hidpi.png" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\image\dialogs\image.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\image\images\noimage.png" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\link\dialogs\anchor.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\link\dialogs\link.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\link\images\anchor.png" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\link\images\hidpi\anchor.png" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\magicline\images\hidpi\icon-rtl.png" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\magicline\images\hidpi\icon.png" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\magicline\images\icon-rtl.png" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\magicline\images\icon.png" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\pastefromgdocs\filter\default.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\pastefromlibreoffice\filter\default.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\pastefromword\filter\default.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\pastetools\filter\common.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\pastetools\filter\image.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\scayt\dialogs\dialog.css" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\scayt\dialogs\options.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\scayt\dialogs\toolbar.css" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\scayt\skins\moono-lisa\scayt.css" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\specialchar\dialogs\lang\af.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\specialchar\dialogs\lang\ar.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\specialchar\dialogs\lang\az.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\specialchar\dialogs\lang\bg.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\specialchar\dialogs\lang\ca.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\specialchar\dialogs\lang\cs.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\specialchar\dialogs\lang\cy.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\specialchar\dialogs\lang\da.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\specialchar\dialogs\lang\de-ch.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\specialchar\dialogs\lang\de.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\specialchar\dialogs\lang\el.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\specialchar\dialogs\lang\en-au.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\specialchar\dialogs\lang\en-ca.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\specialchar\dialogs\lang\en-gb.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\specialchar\dialogs\lang\en.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\specialchar\dialogs\lang\eo.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\specialchar\dialogs\lang\es-mx.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\specialchar\dialogs\lang\es.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\specialchar\dialogs\lang\et.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\specialchar\dialogs\lang\eu.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\specialchar\dialogs\lang\fa.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\specialchar\dialogs\lang\fi.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\specialchar\dialogs\lang\fr-ca.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\specialchar\dialogs\lang\fr.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\specialchar\dialogs\lang\gl.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\specialchar\dialogs\lang\he.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\specialchar\dialogs\lang\hr.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\specialchar\dialogs\lang\hu.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\specialchar\dialogs\lang\id.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\specialchar\dialogs\lang\it.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\specialchar\dialogs\lang\ja.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\specialchar\dialogs\lang\km.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\specialchar\dialogs\lang\ko.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\specialchar\dialogs\lang\ku.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\specialchar\dialogs\lang\lt.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\specialchar\dialogs\lang\lv.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\specialchar\dialogs\lang\nb.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\specialchar\dialogs\lang\nl.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\specialchar\dialogs\lang\no.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\specialchar\dialogs\lang\oc.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\specialchar\dialogs\lang\pl.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\specialchar\dialogs\lang\pt-br.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\specialchar\dialogs\lang\pt.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\specialchar\dialogs\lang\ro.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\specialchar\dialogs\lang\ru.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\specialchar\dialogs\lang\si.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\specialchar\dialogs\lang\sk.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\specialchar\dialogs\lang\sl.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\specialchar\dialogs\lang\sq.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\specialchar\dialogs\lang\sr-latn.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\specialchar\dialogs\lang\sr.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\specialchar\dialogs\lang\sv.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\specialchar\dialogs\lang\th.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\specialchar\dialogs\lang\tr.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\specialchar\dialogs\lang\tt.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\specialchar\dialogs\lang\ug.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\specialchar\dialogs\lang\uk.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\specialchar\dialogs\lang\vi.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\specialchar\dialogs\lang\zh-cn.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\specialchar\dialogs\lang\zh.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\specialchar\dialogs\lang\_translationstatus.txt" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\specialchar\dialogs\specialchar.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\tableselection\styles\tableselection.css" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\tabletools\dialogs\tableCell.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\table\dialogs\table.js" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\widget\images\handle.png" />
+    <Content Include="YöneticiPaneli\ckeditor\samples\css\samples.css" />
+    <Content Include="YöneticiPaneli\ckeditor\samples\img\github-top.png" />
+    <Content Include="YöneticiPaneli\ckeditor\samples\img\header-bg.png" />
+    <Content Include="YöneticiPaneli\ckeditor\samples\img\header-separator.png" />
+    <Content Include="YöneticiPaneli\ckeditor\samples\img\logo.png" />
+    <Content Include="YöneticiPaneli\ckeditor\samples\img\logo.svg" />
+    <Content Include="YöneticiPaneli\ckeditor\samples\img\navigation-tip.png" />
+    <Content Include="YöneticiPaneli\ckeditor\samples\index.html" />
+    <Content Include="YöneticiPaneli\ckeditor\samples\js\sample.js" />
+    <Content Include="YöneticiPaneli\ckeditor\samples\js\sf.js" />
+    <Content Include="YöneticiPaneli\ckeditor\samples\old\ajax.html" />
+    <Content Include="YöneticiPaneli\ckeditor\samples\old\api.html" />
+    <Content Include="YöneticiPaneli\ckeditor\samples\old\appendto.html" />
+    <Content Include="YöneticiPaneli\ckeditor\samples\old\assets\inlineall\logo.png" />
+    <Content Include="YöneticiPaneli\ckeditor\samples\old\assets\outputxhtml\outputxhtml.css" />
+    <Content Include="YöneticiPaneli\ckeditor\samples\old\assets\sample.jpg" />
+    <Content Include="YöneticiPaneli\ckeditor\samples\old\assets\uilanguages\languages.js" />
+    <Content Include="YöneticiPaneli\ckeditor\samples\old\datafiltering.html" />
+    <Content Include="YöneticiPaneli\ckeditor\samples\old\dialog\assets\my_dialog.js" />
+    <Content Include="YöneticiPaneli\ckeditor\samples\old\dialog\dialog.html" />
+    <Content Include="YöneticiPaneli\ckeditor\samples\old\divreplace.html" />
+    <Content Include="YöneticiPaneli\ckeditor\samples\old\enterkey\enterkey.html" />
+    <Content Include="YöneticiPaneli\ckeditor\samples\old\htmlwriter\outputhtml.html" />
+    <Content Include="YöneticiPaneli\ckeditor\samples\old\index.html" />
+    <Content Include="YöneticiPaneli\ckeditor\samples\old\inlineall.html" />
+    <Content Include="YöneticiPaneli\ckeditor\samples\old\inlinebycode.html" />
+    <Content Include="YöneticiPaneli\ckeditor\samples\old\inlinetextarea.html" />
+    <Content Include="YöneticiPaneli\ckeditor\samples\old\jquery.html" />
+    <Content Include="YöneticiPaneli\ckeditor\samples\old\magicline\magicline.html" />
+    <Content Include="YöneticiPaneli\ckeditor\samples\old\readonly.html" />
+    <Content Include="YöneticiPaneli\ckeditor\samples\old\replacebyclass.html" />
+    <Content Include="YöneticiPaneli\ckeditor\samples\old\replacebycode.html" />
+    <Content Include="YöneticiPaneli\ckeditor\samples\old\sample.css" />
+    <Content Include="YöneticiPaneli\ckeditor\samples\old\sample.js" />
+    <Content Include="YöneticiPaneli\ckeditor\samples\old\tabindex.html" />
+    <Content Include="YöneticiPaneli\ckeditor\samples\old\toolbar\toolbar.html" />
+    <Content Include="YöneticiPaneli\ckeditor\samples\old\uicolor.html" />
+    <Content Include="YöneticiPaneli\ckeditor\samples\old\uilanguages.html" />
+    <Content Include="YöneticiPaneli\ckeditor\samples\old\wysiwygarea\fullpage.html" />
+    <Content Include="YöneticiPaneli\ckeditor\samples\old\xhtmlstyle.html" />
+    <Content Include="YöneticiPaneli\ckeditor\samples\toolbarconfigurator\css\fontello.css" />
+    <Content Include="YöneticiPaneli\ckeditor\samples\toolbarconfigurator\font\fontello.svg" />
+    <Content Include="YöneticiPaneli\ckeditor\samples\toolbarconfigurator\font\LICENSE.txt" />
+    <Content Include="YöneticiPaneli\ckeditor\samples\toolbarconfigurator\index.html" />
+    <Content Include="YöneticiPaneli\ckeditor\samples\toolbarconfigurator\js\abstracttoolbarmodifier.js" />
+    <Content Include="YöneticiPaneli\ckeditor\samples\toolbarconfigurator\js\fulltoolbareditor.js" />
+    <Content Include="YöneticiPaneli\ckeditor\samples\toolbarconfigurator\js\toolbarmodifier.js" />
+    <Content Include="YöneticiPaneli\ckeditor\samples\toolbarconfigurator\js\toolbartextmodifier.js" />
+    <Content Include="YöneticiPaneli\ckeditor\samples\toolbarconfigurator\lib\codemirror\codemirror.css" />
+    <Content Include="YöneticiPaneli\ckeditor\samples\toolbarconfigurator\lib\codemirror\codemirror.js" />
+    <Content Include="YöneticiPaneli\ckeditor\samples\toolbarconfigurator\lib\codemirror\javascript.js" />
+    <Content Include="YöneticiPaneli\ckeditor\samples\toolbarconfigurator\lib\codemirror\neo.css" />
+    <Content Include="YöneticiPaneli\ckeditor\samples\toolbarconfigurator\lib\codemirror\show-hint.css" />
+    <Content Include="YöneticiPaneli\ckeditor\samples\toolbarconfigurator\lib\codemirror\show-hint.js" />
+    <Content Include="YöneticiPaneli\ckeditor\skins\moono-lisa\dialog.css" />
+    <Content Include="YöneticiPaneli\ckeditor\skins\moono-lisa\dialog_ie.css" />
+    <Content Include="YöneticiPaneli\ckeditor\skins\moono-lisa\dialog_ie8.css" />
+    <Content Include="YöneticiPaneli\ckeditor\skins\moono-lisa\dialog_iequirks.css" />
+    <Content Include="YöneticiPaneli\ckeditor\skins\moono-lisa\editor.css" />
+    <Content Include="YöneticiPaneli\ckeditor\skins\moono-lisa\editor_gecko.css" />
+    <Content Include="YöneticiPaneli\ckeditor\skins\moono-lisa\editor_ie.css" />
+    <Content Include="YöneticiPaneli\ckeditor\skins\moono-lisa\editor_ie8.css" />
+    <Content Include="YöneticiPaneli\ckeditor\skins\moono-lisa\editor_iequirks.css" />
+    <Content Include="YöneticiPaneli\ckeditor\skins\moono-lisa\icons.png" />
+    <Content Include="YöneticiPaneli\ckeditor\skins\moono-lisa\icons_hidpi.png" />
+    <Content Include="YöneticiPaneli\ckeditor\skins\moono-lisa\images\arrow.png" />
+    <Content Include="YöneticiPaneli\ckeditor\skins\moono-lisa\images\close.png" />
+    <Content Include="YöneticiPaneli\ckeditor\skins\moono-lisa\images\hidpi\close.png" />
+    <Content Include="YöneticiPaneli\ckeditor\skins\moono-lisa\images\hidpi\lock-open.png" />
+    <Content Include="YöneticiPaneli\ckeditor\skins\moono-lisa\images\hidpi\lock.png" />
+    <Content Include="YöneticiPaneli\ckeditor\skins\moono-lisa\images\hidpi\refresh.png" />
+    <Content Include="YöneticiPaneli\ckeditor\skins\moono-lisa\images\lock-open.png" />
+    <Content Include="YöneticiPaneli\ckeditor\skins\moono-lisa\images\lock.png" />
+    <Content Include="YöneticiPaneli\ckeditor\skins\moono-lisa\images\refresh.png" />
+    <Content Include="YöneticiPaneli\ckeditor\skins\moono-lisa\images\spinner.gif" />
+    <Content Include="YöneticiPaneli\ckeditor\styles.js" />
+    <Content Include="YöneticiPaneli\ckeditor\vendor\promise.js" />
     <Content Include="YöneticiPaneli\CSS\FormSayfası.css" />
     <Content Include="YöneticiPaneli\CSS\GirişStil.css" />
     <Content Include="YöneticiPaneli\CSS\ListeSayfası.css" />
@@ -113,6 +429,34 @@
     <Compile Include="YöneticiPaneli\KategoriListele.aspx.designer.cs">
       <DependentUpon>KategoriListele.aspx</DependentUpon>
     </Compile>
+    <Compile Include="YöneticiPaneli\MakaleDuzenle.aspx.cs">
+      <DependentUpon>MakaleDuzenle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YöneticiPaneli\MakaleDuzenle.aspx.designer.cs">
+      <DependentUpon>MakaleDuzenle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YöneticiPaneli\MakaleEkle.aspx.cs">
+      <DependentUpon>MakaleEkle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YöneticiPaneli\MakaleEkle.aspx.designer.cs">
+      <DependentUpon>MakaleEkle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YöneticiPaneli\MakaleListele.aspx.cs">
+      <DependentUpon>MakaleListele.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YöneticiPaneli\MakaleListele.aspx.designer.cs">
+      <DependentUpon>MakaleListele.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YöneticiPaneli\Uyeler.aspx.cs">
+      <DependentUpon>Uyeler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YöneticiPaneli\Uyeler.aspx.designer.cs">
+      <DependentUpon>Uyeler.aspx</DependentUpon>
+    </Compile>
     <Compile Include="YöneticiPaneli\YoneticiDefault.aspx.cs">
       <DependentUpon>YoneticiDefault.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -120,12 +464,26 @@
     <Compile Include="YöneticiPaneli\YoneticiDefault.aspx.designer.cs">
       <DependentUpon>YoneticiDefault.aspx</DependentUpon>
     </Compile>
-    <Compile Include="YöneticiPaneli\YöneticiMaster.Master.cs">
-      <DependentUpon>YöneticiMaster.Master</DependentUpon>
+    <Compile Include="YöneticiPaneli\Yorumlar.aspx.cs">
+      <DependentUpon>Yorumlar.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="YöneticiPaneli\YöneticiMaster.Master.designer.cs">
-      <DependentUpon>YöneticiMaster.Master</DependentUpon>
+    <Compile Include="YöneticiPaneli\Yorumlar.aspx.designer.cs">
+      <DependentUpon>Yorumlar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YöneticiPaneli\YoneticiIslemleri.aspx.cs">
+      <DependentUpon>YoneticiIslemleri.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YöneticiPaneli\YoneticiIslemleri.aspx.designer.cs">
+      <DependentUpon>YoneticiIslemleri.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YöneticiPaneli\YoneticiMaster.Master.cs">
+      <DependentUpon>YoneticiMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YöneticiPaneli\YoneticiMaster.Master.designer.cs">
+      <DependentUpon>YoneticiMaster.Master</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -138,12 +496,30 @@
     </None>
     <Content Include="YöneticiPaneli\KategoriEkle.aspx" />
     <Content Include="YöneticiPaneli\KategoriListele.aspx" />
-    <Content Include="YöneticiPaneli\Resimler\delete.png" />
-    <Content Include="YöneticiPaneli\Resimler\edit.png" />
-    <Content Include="YöneticiPaneli\Resimler\login-background.jpg" />
-    <Content Include="YöneticiPaneli\Resimler\recycle.png" />
+    <Content Include="YöneticiPaneli\MakaleDuzenle.aspx" />
+    <Content Include="YöneticiPaneli\MakaleEkle.aspx" />
+    <Content Include="YöneticiPaneli\MakaleListele.aspx" />
+    <Content Include="YöneticiPaneli\Uyeler.aspx" />
     <Content Include="YöneticiPaneli\YoneticiDefault.aspx" />
-    <Content Include="YöneticiPaneli\YöneticiMaster.Master" />
+    <Content Include="YöneticiPaneli\Yorumlar.aspx" />
+    <Content Include="YöneticiPaneli\YoneticiIslemleri.aspx" />
+    <Content Include="YöneticiPaneli\YoneticiMaster.Master" />
+    <Content Include="YöneticiPaneli\ckeditor\bender-runner.config.json" />
+    <Content Include="YöneticiPaneli\ckeditor\CHANGES.md" />
+    <Content Include="YöneticiPaneli\ckeditor\LICENSE.md" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\scayt\CHANGELOG.md" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\scayt\LICENSE.md" />
+    <Content Include="YöneticiPaneli\ckeditor\plugins\scayt\README.md" />
+    <Content Include="YöneticiPaneli\ckeditor\README.md" />
+    <Content Include="YöneticiPaneli\ckeditor\samples\old\assets\posteddata.php" />
+    <Content Include="YöneticiPaneli\ckeditor\samples\old\sample_posteddata.php" />
+    <Content Include="YöneticiPaneli\ckeditor\samples\toolbarconfigurator\font\config.json" />
+    <Content Include="YöneticiPaneli\ckeditor\samples\toolbarconfigurator\font\fontello.eot" />
+    <Content Include="YöneticiPaneli\ckeditor\samples\toolbarconfigurator\font\fontello.ttf" />
+    <Content Include="YöneticiPaneli\ckeditor\samples\toolbarconfigurator\font\fontello.woff" />
+    <Content Include="YöneticiPaneli\ckeditor\samples\toolbarconfigurator\lib\codemirror\LICENSE" />
+    <Content Include="YöneticiPaneli\ckeditor\SECURITY.md" />
+    <Content Include="YöneticiPaneli\ckeditor\skins\moono-lisa\readme.md" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\VeriErişimKatmanı\VeriErişimKatmanı.csproj">
@@ -151,6 +527,7 @@
       <Name>VeriErişimKatmanı</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
