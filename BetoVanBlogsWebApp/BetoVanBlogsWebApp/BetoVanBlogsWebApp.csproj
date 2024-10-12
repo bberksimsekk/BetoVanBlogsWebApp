@@ -70,10 +70,16 @@
     <Content Include="Default.aspx" />
     <Content Include="Web.config" />
     <Content Include="YöneticiPaneli\AdminResimler\add.png" />
-    <Content Include="YöneticiPaneli\AdminResimler\background.jpg" />
+    <Content Include="YöneticiPaneli\AdminResimler\background.png" />
     <Content Include="YöneticiPaneli\AdminResimler\comment.png" />
     <Content Include="YöneticiPaneli\AdminResimler\delete.png" />
     <Content Include="YöneticiPaneli\AdminResimler\edit.png" />
+    <Content Include="YöneticiPaneli\AdminResimler\list.png" />
+    <Content Include="YöneticiPaneli\AdminResimler\articleadd.png" />
+    <Content Include="YöneticiPaneli\AdminResimler\table.png" />
+    <Content Include="YöneticiPaneli\AdminResimler\team.png" />
+    <Content Include="YöneticiPaneli\AdminResimler\home.png" />
+    <Content Include="YöneticiPaneli\AdminResimler\admin.png" />
     <Content Include="YöneticiPaneli\ckeditor\adapters\jquery.js" />
     <Content Include="YöneticiPaneli\ckeditor\build-config.js" />
     <Content Include="YöneticiPaneli\ckeditor\ckeditor.js" />
@@ -391,8 +397,17 @@
     <Content Include="YöneticiPaneli\CSS\YöneticiStil.css" />
     <Content Include="YöneticiPaneli\Giriş.aspx" />
     <Content Include="YöneticiPaneli\KategoriDuzenle.aspx" />
+    <Content Include="ÜyePaneli\CSS\ÜyeGiriş.css" />
+    <Content Include="ÜyePaneli\Yorumlar.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Arayuz.Master.cs">
+      <DependentUpon>Arayuz.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Arayuz.Master.designer.cs">
+      <DependentUpon>Arayuz.Master</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -485,8 +500,37 @@
     <Compile Include="YöneticiPaneli\YoneticiMaster.Master.designer.cs">
       <DependentUpon>YoneticiMaster.Master</DependentUpon>
     </Compile>
+    <Compile Include="ÜyePaneli\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ÜyePaneli\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ÜyePaneli\Profil.aspx.cs">
+      <DependentUpon>Profil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ÜyePaneli\Profil.aspx.designer.cs">
+      <DependentUpon>Profil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ÜyePaneli\UyePanel.Master.cs">
+      <DependentUpon>UyePanel.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ÜyePaneli\UyePanel.Master.designer.cs">
+      <DependentUpon>UyePanel.Master</DependentUpon>
+    </Compile>
+    <Compile Include="ÜyePaneli\Yorumlar.aspx.cs">
+      <DependentUpon>Yorumlar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ÜyePaneli\Yorumlar.aspx.designer.cs">
+      <DependentUpon>Yorumlar.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Arayuz.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -520,6 +564,9 @@
     <Content Include="YöneticiPaneli\ckeditor\samples\toolbarconfigurator\lib\codemirror\LICENSE" />
     <Content Include="YöneticiPaneli\ckeditor\SECURITY.md" />
     <Content Include="YöneticiPaneli\ckeditor\skins\moono-lisa\readme.md" />
+    <Content Include="ÜyePaneli\Default.aspx" />
+    <Content Include="ÜyePaneli\Profil.aspx" />
+    <Content Include="ÜyePaneli\UyePanel.Master" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\VeriErişimKatmanı\VeriErişimKatmanı.csproj">

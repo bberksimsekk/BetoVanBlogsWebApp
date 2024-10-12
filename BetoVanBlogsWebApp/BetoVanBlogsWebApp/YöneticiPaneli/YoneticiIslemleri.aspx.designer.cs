@@ -11,7 +11,7 @@ namespace BetoVanBlogsWebApp.YöneticiPaneli
 {
 
 
-    public partial class YöneticiIslemleri
+    public partial class YoneticiIslemleri
     {
 
         /// <summary>

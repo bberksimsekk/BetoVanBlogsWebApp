@@ -19,14 +19,14 @@ namespace BetoVanBlogsWebApp.YöneticiPaneli
             }
             else
             {
-                Response.Redirect("Giris.aspx");
+                Response.Redirect("Giriş.aspx");
             }
         }
 
         protected void lbtn_cikis_Click(object sender, EventArgs e)
         {
             Session["GirisYapanYonetici"] = null;
-            Response.Redirect("Giris.aspx");
+            Response.Redirect("Giriş.aspx");
         }
     }
 }

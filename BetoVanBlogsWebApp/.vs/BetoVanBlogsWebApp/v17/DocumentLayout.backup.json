@@ -3,80 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Huawei\\Documents\\GitHub\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{29F7F8A6-CC1C-4334-9CD4-AF265ACAC1B2}|BetoVanBlogsWebApp\\BetoVanBlogsWebApp.csproj|c:\\users\\huawei\\documents\\github\\betovanblogswebapp\\betovanblogswebapp\\betovanblogswebapp\\y\u00F6neticipaneli\\giri\u015F.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{29F7F8A6-CC1C-4334-9CD4-AF265ACAC1B2}|BetoVanBlogsWebApp\\BetoVanBlogsWebApp.csproj|solutionrelative:betovanblogswebapp\\y\u00F6neticipaneli\\giri\u015F.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{29F7F8A6-CC1C-4334-9CD4-AF265ACAC1B2}|BetoVanBlogsWebApp\\BetoVanBlogsWebApp.csproj|c:\\users\\huawei\\documents\\github\\betovanblogswebapp\\betovanblogswebapp\\betovanblogswebapp\\y\u00F6neticipaneli\\giri\u015F.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29F7F8A6-CC1C-4334-9CD4-AF265ACAC1B2}|BetoVanBlogsWebApp\\BetoVanBlogsWebApp.csproj|solutionrelative:betovanblogswebapp\\y\u00F6neticipaneli\\giri\u015F.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29F7F8A6-CC1C-4334-9CD4-AF265ACAC1B2}|BetoVanBlogsWebApp\\BetoVanBlogsWebApp.csproj|c:\\users\\huawei\\documents\\github\\betovanblogswebapp\\betovanblogswebapp\\betovanblogswebapp\\y\u00F6neticipaneli\\kategorilistele.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{29F7F8A6-CC1C-4334-9CD4-AF265ACAC1B2}|BetoVanBlogsWebApp\\BetoVanBlogsWebApp.csproj|solutionrelative:betovanblogswebapp\\y\u00F6neticipaneli\\kategorilistele.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29F7F8A6-CC1C-4334-9CD4-AF265ACAC1B2}|BetoVanBlogsWebApp\\BetoVanBlogsWebApp.csproj|c:\\users\\huawei\\documents\\github\\betovanblogswebapp\\betovanblogswebapp\\betovanblogswebapp\\y\u00F6neticipaneli\\yoneticidefault.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29F7F8A6-CC1C-4334-9CD4-AF265ACAC1B2}|BetoVanBlogsWebApp\\BetoVanBlogsWebApp.csproj|solutionrelative:betovanblogswebapp\\y\u00F6neticipaneli\\yoneticidefault.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29F7F8A6-CC1C-4334-9CD4-AF265ACAC1B2}|BetoVanBlogsWebApp\\BetoVanBlogsWebApp.csproj|c:\\users\\huawei\\documents\\github\\betovanblogswebapp\\betovanblogswebapp\\betovanblogswebapp\\y\u00F6neticipaneli\\css\\formsayfas\u0131.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{29F7F8A6-CC1C-4334-9CD4-AF265ACAC1B2}|BetoVanBlogsWebApp\\BetoVanBlogsWebApp.csproj|solutionrelative:betovanblogswebapp\\y\u00F6neticipaneli\\css\\formsayfas\u0131.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29F7F8A6-CC1C-4334-9CD4-AF265ACAC1B2}|BetoVanBlogsWebApp\\BetoVanBlogsWebApp.csproj|c:\\users\\huawei\\documents\\github\\betovanblogswebapp\\betovanblogswebapp\\betovanblogswebapp\\y\u00F6neticipaneli\\css\\y\u00F6neticistil.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{29F7F8A6-CC1C-4334-9CD4-AF265ACAC1B2}|BetoVanBlogsWebApp\\BetoVanBlogsWebApp.csproj|solutionrelative:betovanblogswebapp\\y\u00F6neticipaneli\\css\\y\u00F6neticistil.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29F7F8A6-CC1C-4334-9CD4-AF265ACAC1B2}|BetoVanBlogsWebApp\\BetoVanBlogsWebApp.csproj|c:\\users\\huawei\\documents\\github\\betovanblogswebapp\\betovanblogswebapp\\betovanblogswebapp\\y\u00F6neticipaneli\\kategoriduzenle.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{29F7F8A6-CC1C-4334-9CD4-AF265ACAC1B2}|BetoVanBlogsWebApp\\BetoVanBlogsWebApp.csproj|solutionrelative:betovanblogswebapp\\y\u00F6neticipaneli\\kategoriduzenle.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29F7F8A6-CC1C-4334-9CD4-AF265ACAC1B2}|BetoVanBlogsWebApp\\BetoVanBlogsWebApp.csproj|c:\\users\\huawei\\documents\\github\\betovanblogswebapp\\betovanblogswebapp\\betovanblogswebapp\\y\u00F6neticipaneli\\css\\listesayfas\u0131.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{29F7F8A6-CC1C-4334-9CD4-AF265ACAC1B2}|BetoVanBlogsWebApp\\BetoVanBlogsWebApp.csproj|solutionrelative:betovanblogswebapp\\y\u00F6neticipaneli\\css\\listesayfas\u0131.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29F7F8A6-CC1C-4334-9CD4-AF265ACAC1B2}|BetoVanBlogsWebApp\\BetoVanBlogsWebApp.csproj|c:\\users\\huawei\\documents\\github\\betovanblogswebapp\\betovanblogswebapp\\betovanblogswebapp\\y\u00F6neticipaneli\\makalelistele.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{29F7F8A6-CC1C-4334-9CD4-AF265ACAC1B2}|BetoVanBlogsWebApp\\BetoVanBlogsWebApp.csproj|solutionrelative:betovanblogswebapp\\y\u00F6neticipaneli\\makalelistele.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29F7F8A6-CC1C-4334-9CD4-AF265ACAC1B2}|BetoVanBlogsWebApp\\BetoVanBlogsWebApp.csproj|c:\\users\\huawei\\documents\\github\\betovanblogswebapp\\betovanblogswebapp\\betovanblogswebapp\\y\u00F6neticipaneli\\makaleekle.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{29F7F8A6-CC1C-4334-9CD4-AF265ACAC1B2}|BetoVanBlogsWebApp\\BetoVanBlogsWebApp.csproj|solutionrelative:betovanblogswebapp\\y\u00F6neticipaneli\\makaleekle.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29F7F8A6-CC1C-4334-9CD4-AF265ACAC1B2}|BetoVanBlogsWebApp\\BetoVanBlogsWebApp.csproj|c:\\users\\huawei\\documents\\github\\betovanblogswebapp\\betovanblogswebapp\\betovanblogswebapp\\y\u00F6neticipaneli\\makaleduzenle.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{29F7F8A6-CC1C-4334-9CD4-AF265ACAC1B2}|BetoVanBlogsWebApp\\BetoVanBlogsWebApp.csproj|solutionrelative:betovanblogswebapp\\y\u00F6neticipaneli\\makaleduzenle.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29F7F8A6-CC1C-4334-9CD4-AF265ACAC1B2}|BetoVanBlogsWebApp\\BetoVanBlogsWebApp.csproj|c:\\users\\huawei\\documents\\github\\betovanblogswebapp\\betovanblogswebapp\\betovanblogswebapp\\y\u00F6neticipaneli\\kategoriekle.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{29F7F8A6-CC1C-4334-9CD4-AF265ACAC1B2}|BetoVanBlogsWebApp\\BetoVanBlogsWebApp.csproj|solutionrelative:betovanblogswebapp\\y\u00F6neticipaneli\\kategoriekle.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29F7F8A6-CC1C-4334-9CD4-AF265ACAC1B2}|BetoVanBlogsWebApp\\BetoVanBlogsWebApp.csproj|c:\\users\\huawei\\documents\\github\\betovanblogswebapp\\betovanblogswebapp\\betovanblogswebapp\\y\u00F6neticipaneli\\kategoriekle.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29F7F8A6-CC1C-4334-9CD4-AF265ACAC1B2}|BetoVanBlogsWebApp\\BetoVanBlogsWebApp.csproj|solutionrelative:betovanblogswebapp\\y\u00F6neticipaneli\\kategoriekle.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29F7F8A6-CC1C-4334-9CD4-AF265ACAC1B2}|BetoVanBlogsWebApp\\BetoVanBlogsWebApp.csproj|c:\\users\\huawei\\documents\\github\\betovanblogswebapp\\betovanblogswebapp\\betovanblogswebapp\\y\u00F6neticipaneli\\makaleekle.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29F7F8A6-CC1C-4334-9CD4-AF265ACAC1B2}|BetoVanBlogsWebApp\\BetoVanBlogsWebApp.csproj|solutionrelative:betovanblogswebapp\\y\u00F6neticipaneli\\makaleekle.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29F7F8A6-CC1C-4334-9CD4-AF265ACAC1B2}|BetoVanBlogsWebApp\\BetoVanBlogsWebApp.csproj|c:\\users\\huawei\\documents\\github\\betovanblogswebapp\\betovanblogswebapp\\betovanblogswebapp\\y\u00F6neticipaneli\\makaleduzenle.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29F7F8A6-CC1C-4334-9CD4-AF265ACAC1B2}|BetoVanBlogsWebApp\\BetoVanBlogsWebApp.csproj|solutionrelative:betovanblogswebapp\\y\u00F6neticipaneli\\makaleduzenle.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82CC2ED0-EDE2-41F2-8B5C-2110635B82C8}|VeriEri\u015FimKatman\u0131\\VeriEri\u015FimKatman\u0131.csproj|c:\\users\\huawei\\documents\\github\\betovanblogswebapp\\betovanblogswebapp\\verieri\u015Fimkatman\u0131\\makale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82CC2ED0-EDE2-41F2-8B5C-2110635B82C8}|VeriEri\u015FimKatman\u0131\\VeriEri\u015FimKatman\u0131.csproj|solutionrelative:verieri\u015Fimkatman\u0131\\makale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82CC2ED0-EDE2-41F2-8B5C-2110635B82C8}|VeriEri\u015FimKatman\u0131\\VeriEri\u015FimKatman\u0131.csproj|c:\\users\\huawei\\documents\\github\\betovanblogswebapp\\betovanblogswebapp\\verieri\u015Fimkatman\u0131\\yorum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82CC2ED0-EDE2-41F2-8B5C-2110635B82C8}|VeriEri\u015FimKatman\u0131\\VeriEri\u015FimKatman\u0131.csproj|solutionrelative:verieri\u015Fimkatman\u0131\\yorum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82CC2ED0-EDE2-41F2-8B5C-2110635B82C8}|VeriEri\u015FimKatman\u0131\\VeriEri\u015FimKatman\u0131.csproj|c:\\users\\huawei\\documents\\github\\betovanblogswebapp\\betovanblogswebapp\\verieri\u015Fimkatman\u0131\\verimodeli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82CC2ED0-EDE2-41F2-8B5C-2110635B82C8}|VeriEri\u015FimKatman\u0131\\VeriEri\u015FimKatman\u0131.csproj|solutionrelative:verieri\u015Fimkatman\u0131\\verimodeli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29F7F8A6-CC1C-4334-9CD4-AF265ACAC1B2}|BetoVanBlogsWebApp\\BetoVanBlogsWebApp.csproj|c:\\users\\huawei\\documents\\github\\betovanblogswebapp\\betovanblogswebapp\\betovanblogswebapp\\y\u00F6neticipaneli\\y\u00F6neticimaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
-      "RelativeMoniker": "D:0:0:{29F7F8A6-CC1C-4334-9CD4-AF265ACAC1B2}|BetoVanBlogsWebApp\\BetoVanBlogsWebApp.csproj|solutionrelative:betovanblogswebapp\\y\u00F6neticipaneli\\y\u00F6neticimaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29F7F8A6-CC1C-4334-9CD4-AF265ACAC1B2}|BetoVanBlogsWebApp\\BetoVanBlogsWebApp.csproj|c:\\users\\huawei\\documents\\github\\betovanblogswebapp\\betovanblogswebapp\\betovanblogswebapp\\y\u00F6neticipaneli\\y\u00F6neticimaster.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29F7F8A6-CC1C-4334-9CD4-AF265ACAC1B2}|BetoVanBlogsWebApp\\BetoVanBlogsWebApp.csproj|solutionrelative:betovanblogswebapp\\y\u00F6neticipaneli\\y\u00F6neticimaster.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{29F7F8A6-CC1C-4334-9CD4-AF265ACAC1B2}|BetoVanBlogsWebApp\\BetoVanBlogsWebApp.csproj|c:\\users\\huawei\\documents\\github\\betovanblogswebapp\\betovanblogswebapp\\betovanblogswebapp\\\u00FCyepaneli\\profil.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29F7F8A6-CC1C-4334-9CD4-AF265ACAC1B2}|BetoVanBlogsWebApp\\BetoVanBlogsWebApp.csproj|solutionrelative:betovanblogswebapp\\\u00FCyepaneli\\profil.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,253 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FormSayfas\u0131.css",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Documents\\GitHub\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\CSS\\FormSayfas\u0131.css",
-              "RelativeDocumentMoniker": "BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\CSS\\FormSayfas\u0131.css",
-              "ToolTip": "C:\\Users\\Huawei\\Documents\\GitHub\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\CSS\\FormSayfas\u0131.css",
-              "RelativeToolTip": "BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\CSS\\FormSayfas\u0131.css",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-11T11:50:56.769Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "YoneticiDefault.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Documents\\GitHub\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\YoneticiDefault.aspx.cs",
-              "RelativeDocumentMoniker": "BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\YoneticiDefault.aspx.cs",
-              "ToolTip": "C:\\Users\\Huawei\\Documents\\GitHub\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\YoneticiDefault.aspx.cs",
-              "RelativeToolTip": "BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\YoneticiDefault.aspx.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAtAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Giri\u015F.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Huawei\\Documents\\GitHub\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\Giri\u015F.aspx.cs",
+              "RelativeDocumentMoniker": "BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\Giri\u015F.aspx.cs",
+              "ToolTip": "C:\\Users\\Huawei\\Documents\\GitHub\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\Giri\u015F.aspx.cs",
+              "RelativeToolTip": "BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\Giri\u015F.aspx.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T11:42:24.408Z",
+              "WhenOpened": "2024-10-12T11:54:13.163Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "KategoriListele.aspx",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Documents\\GitHub\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\KategoriListele.aspx",
-              "RelativeDocumentMoniker": "BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\KategoriListele.aspx",
-              "ToolTip": "C:\\Users\\Huawei\\Documents\\GitHub\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\KategoriListele.aspx",
-              "RelativeToolTip": "BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\KategoriListele.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-11T11:33:46.69Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ListeSayfas\u0131.css",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Documents\\GitHub\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\CSS\\ListeSayfas\u0131.css",
-              "RelativeDocumentMoniker": "BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\CSS\\ListeSayfas\u0131.css",
-              "ToolTip": "C:\\Users\\Huawei\\Documents\\GitHub\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\CSS\\ListeSayfas\u0131.css",
-              "RelativeToolTip": "BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\CSS\\ListeSayfas\u0131.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-11T11:21:51.116Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MakaleListele.aspx",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Documents\\GitHub\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\MakaleListele.aspx",
-              "RelativeDocumentMoniker": "BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\MakaleListele.aspx",
-              "ToolTip": "C:\\Users\\Huawei\\Documents\\GitHub\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\MakaleListele.aspx",
-              "RelativeToolTip": "BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\MakaleListele.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-11T11:17:27.544Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Giri\u015F.aspx",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Documents\\GitHub\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\Giri\u015F.aspx",
-              "RelativeDocumentMoniker": "BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\Giri\u015F.aspx",
-              "ToolTip": "C:\\Users\\Huawei\\Documents\\GitHub\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\Giri\u015F.aspx",
-              "RelativeToolTip": "BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\Giri\u015F.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-11T11:15:38.371Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "KategoriEkle.aspx",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Documents\\GitHub\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\KategoriEkle.aspx",
-              "RelativeDocumentMoniker": "BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\KategoriEkle.aspx",
-              "ToolTip": "C:\\Users\\Huawei\\Documents\\GitHub\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\KategoriEkle.aspx",
-              "RelativeToolTip": "BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\KategoriEkle.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-11T11:08:14.603Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "KategoriEkle.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Documents\\GitHub\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\KategoriEkle.aspx.cs",
-              "RelativeDocumentMoniker": "BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\KategoriEkle.aspx.cs",
-              "ToolTip": "C:\\Users\\Huawei\\Documents\\GitHub\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\KategoriEkle.aspx.cs",
-              "RelativeToolTip": "BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\KategoriEkle.aspx.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Profil.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Huawei\\Documents\\GitHub\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\\u00DCyePaneli\\Profil.aspx.cs",
+              "RelativeDocumentMoniker": "BetoVanBlogsWebApp\\\u00DCyePaneli\\Profil.aspx.cs",
+              "ToolTip": "C:\\Users\\Huawei\\Documents\\GitHub\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\\u00DCyePaneli\\Profil.aspx.cs",
+              "RelativeToolTip": "BetoVanBlogsWebApp\\\u00DCyePaneli\\Profil.aspx.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T10:58:52.84Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MakaleEkle.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Documents\\GitHub\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\MakaleEkle.aspx.cs",
-              "RelativeDocumentMoniker": "BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\MakaleEkle.aspx.cs",
-              "ToolTip": "C:\\Users\\Huawei\\Documents\\GitHub\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\MakaleEkle.aspx.cs",
-              "RelativeToolTip": "BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\MakaleEkle.aspx.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAYwC8AAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T10:49:57.545Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Yorum.cs",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Documents\\GitHub\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\VeriEri\u015FimKatman\u0131\\Yorum.cs",
-              "RelativeDocumentMoniker": "VeriEri\u015FimKatman\u0131\\Yorum.cs",
-              "ToolTip": "C:\\Users\\Huawei\\Documents\\GitHub\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\VeriEri\u015FimKatman\u0131\\Yorum.cs",
-              "RelativeToolTip": "VeriEri\u015FimKatman\u0131\\Yorum.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T10:41:36.822Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Y\u00F6neticiStil.css",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Documents\\GitHub\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\CSS\\Y\u00F6neticiStil.css",
-              "RelativeDocumentMoniker": "BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\CSS\\Y\u00F6neticiStil.css",
-              "ToolTip": "C:\\Users\\Huawei\\Documents\\GitHub\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\CSS\\Y\u00F6neticiStil.css",
-              "RelativeToolTip": "BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\CSS\\Y\u00F6neticiStil.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-11T10:32:44.504Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Y\u00F6neticiMaster.Master",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Documents\\GitHub\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\Y\u00F6neticiMaster.Master",
-              "RelativeDocumentMoniker": "BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\Y\u00F6neticiMaster.Master",
-              "ToolTip": "C:\\Users\\Huawei\\Documents\\GitHub\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\Y\u00F6neticiMaster.Master",
-              "RelativeToolTip": "BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\Y\u00F6neticiMaster.Master",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-11T10:31:24.569Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Y\u00F6neticiMaster.Master.cs",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Documents\\GitHub\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\Y\u00F6neticiMaster.Master.cs",
-              "RelativeDocumentMoniker": "BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\Y\u00F6neticiMaster.Master.cs",
-              "ToolTip": "C:\\Users\\Huawei\\Documents\\GitHub\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\Y\u00F6neticiMaster.Master.cs",
-              "RelativeToolTip": "BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\Y\u00F6neticiMaster.Master.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T10:31:51.734Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MakaleEkle.aspx",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Documents\\GitHub\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\MakaleEkle.aspx",
-              "RelativeDocumentMoniker": "BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\MakaleEkle.aspx",
-              "ToolTip": "C:\\Users\\Huawei\\Documents\\GitHub\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\MakaleEkle.aspx",
-              "RelativeToolTip": "BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\MakaleEkle.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-11T10:16:59.998Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "VeriModeli.cs",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Documents\\GitHub\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\VeriEri\u015FimKatman\u0131\\VeriModeli.cs",
-              "RelativeDocumentMoniker": "VeriEri\u015FimKatman\u0131\\VeriModeli.cs",
-              "ToolTip": "C:\\Users\\Huawei\\Documents\\GitHub\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\VeriEri\u015FimKatman\u0131\\VeriModeli.cs",
-              "RelativeToolTip": "VeriEri\u015FimKatman\u0131\\VeriModeli.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAgwBUEAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T10:10:59.217Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Makale.cs",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Documents\\GitHub\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\VeriEri\u015FimKatman\u0131\\Makale.cs",
-              "RelativeDocumentMoniker": "VeriEri\u015FimKatman\u0131\\Makale.cs",
-              "ToolTip": "C:\\Users\\Huawei\\Documents\\GitHub\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\VeriEri\u015FimKatman\u0131\\Makale.cs",
-              "RelativeToolTip": "VeriEri\u015FimKatman\u0131\\Makale.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T10:06:57.219Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "MakaleDuzenle.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Documents\\GitHub\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\MakaleDuzenle.aspx.cs",
-              "RelativeDocumentMoniker": "BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\MakaleDuzenle.aspx.cs",
-              "ToolTip": "C:\\Users\\Huawei\\Documents\\GitHub\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\MakaleDuzenle.aspx.cs",
-              "RelativeToolTip": "BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\MakaleDuzenle.aspx.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAYwEQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T09:56:56.664Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "KategoriDuzenle.aspx",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Documents\\GitHub\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\KategoriDuzenle.aspx",
-              "RelativeDocumentMoniker": "BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\KategoriDuzenle.aspx",
-              "ToolTip": "C:\\Users\\Huawei\\Documents\\GitHub\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\KategoriDuzenle.aspx",
-              "RelativeToolTip": "BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\KategoriDuzenle.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-11T09:56:44.384Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MakaleDuzenle.aspx",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Documents\\GitHub\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\MakaleDuzenle.aspx",
-              "RelativeDocumentMoniker": "BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\MakaleDuzenle.aspx",
-              "ToolTip": "C:\\Users\\Huawei\\Documents\\GitHub\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\MakaleDuzenle.aspx",
-              "RelativeToolTip": "BetoVanBlogsWebApp\\Y\u00F6neticiPaneli\\MakaleDuzenle.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-11T09:54:57.469Z",
+              "WhenOpened": "2024-10-12T10:58:33.327Z",
               "EditorCaption": ""
             }
           ]

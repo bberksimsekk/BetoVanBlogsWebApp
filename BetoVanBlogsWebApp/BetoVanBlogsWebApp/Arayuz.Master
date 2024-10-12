@@ -1,0 +1,66 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Arayuz.master.cs" Inherits="BetoVanBlogsWebApp.Arayuz" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title> BETO VAN Blogs Web App </title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        <link href="Css/Arayuz.css" rel="stylesheet" />
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <a name="Üst"></a>
+        <div class="AnaTaşıyıcı">
+            <div class="SayfaBaşlık">
+                <h2>
+                    <a href="Default.aspx">
+                        <img src="Resimler/analogo.png" style="width: 100px;" /></a></h2>
+            </div>
+
+            <div class="uyePanel">
+                <asp:Panel ID="pnl_girisyok" runat="server" class="ÜyePanel">
+                    <a href="UyeGiris.aspx">Giriş Yap</a>
+                    <a href="UyeOl.aspx">Üye Ol</a>
+                    <a href="Hakkimizda.aspx">Hakkımızda</a>
+                    <a href="Iletisim.aspx">İletişim</a>
+                </asp:Panel>
+                <asp:Panel ID="pnl_girisvar" runat="server" class="ÜyePanel">
+                    <a href="ÜyePaneli/Profil.aspx">
+                        <asp:Literal ID="Literal1" runat="server"></asp:Literal></a>
+                    <asp:LinkButton ID="LinkButton1" runat="server" OnClick="lbtn_cikis_Click">Çıkış</asp:LinkButton>
+                    <a href="ÜyePaneli/Default.aspx">Üye Paneli Giriş</a>
+                    <a href="YöneticiPaneli/Giriş.aspx">Yönetici Paneli Giriş</a>
+                </asp:Panel>
+            </div>
+            <div style="clear: both"></div>
+        </div>
+        <div class="Ayraç"></div>
+        <div class="AnaTaşıyıcı">
+            <div class="Menü">
+                <a href="Default.aspx">Tüm Makaleler</a> | 
+               
+                <asp:Repeater ID="rp_kategoriler" runat="server">
+                    <ItemTemplate>
+                        <a href='Default.aspx?kid=<%# Eval("ID") %>'><%# Eval("Isim") %></a>
+                    </ItemTemplate>
+                </asp:Repeater>
+            </div>
+        </div>
+        <div class="Ayraç"></div>
+        <div class="AnaTaşıyıcı">
+            <div class="MakaleAlanı">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div class="ReklamAlanı">
+                <a href="https://www.turhost.com/r/104820/hosting">
+                    <img src="reklamlar/160x600.gif" style="margin-left: 40px;" />
+                </a>
+            </div>
+            <div style="clear: both"></div>
+            <a href="#ust" style="float: right; margin: 20px;">Yukarı çık</a>
+        </div>
+    </form>
+</body>
+</html>

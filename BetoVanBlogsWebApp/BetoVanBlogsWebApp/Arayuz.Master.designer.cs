@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace BetoVanBlogsWebApp.YöneticiPaneli
+namespace BetoVanBlogsWebApp
 {
 
 
-    public partial class YoneticiMaster
+    public partial class Arayuz
     {
 
         /// <summary>
@@ -33,31 +33,49 @@ namespace BetoVanBlogsWebApp.YöneticiPaneli
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// img_profilFotografi control.
+        /// pnl_girisyok control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image img_profilFotografi;
+        protected global::System.Web.UI.WebControls.Panel pnl_girisyok;
 
         /// <summary>
-        /// lbl_kullanici control.
+        /// pnl_girisvar control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbl_kullanici;
+        protected global::System.Web.UI.WebControls.Panel pnl_girisvar;
 
         /// <summary>
-        /// lbtn_cikis control.
+        /// Literal1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton lbtn_cikis;
+        protected global::System.Web.UI.WebControls.Literal Literal1;
+
+        /// <summary>
+        /// LinkButton1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton1;
+
+        /// <summary>
+        /// rp_kategoriler control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Repeater rp_kategoriler;
 
         /// <summary>
         /// ContentPlaceHolder1 control.

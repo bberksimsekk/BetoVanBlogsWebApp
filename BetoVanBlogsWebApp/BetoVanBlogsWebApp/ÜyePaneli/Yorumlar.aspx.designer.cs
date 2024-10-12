@@ -7,20 +7,20 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace BetoVanBlogsWebApp
+namespace BetoVanBlogsWebApp.ÜyePaneli
 {
 
 
-    public partial class Default
+    public partial class Yorumlar
     {
 
         /// <summary>
-        /// lv_makaleler1 control.
+        /// lv_yorumlar control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater lv_makaleler1;
+        protected global::System.Web.UI.WebControls.ListView lv_yorumlar;
     }
 }

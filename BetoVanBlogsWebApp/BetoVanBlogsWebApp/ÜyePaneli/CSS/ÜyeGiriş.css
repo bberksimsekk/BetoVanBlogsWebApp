@@ -1,0 +1,292 @@
+﻿*, h1, h2, h3, h4, h5, h6 
+{
+    margin: 0;
+    padding: 0;
+}
+
+.Body 
+{
+    font-family: Fabrizo;
+}
+
+.ÜstMenü 
+{
+    background-color: #f6f6f6;
+    padding: 30px 10px;
+    color: #b8004f;
+    border-bottom: 4px solid #9f634e;
+}
+
+.ÜstMenü h3 
+{
+    float: left;
+    padding-left: 30px;
+    font-size: 17pt;
+    color: #9f634e;
+}
+
+.ÜstMenü .Kullanıcı 
+{
+    float: right;
+    font-size: 13pt;
+    color: #9f634e;
+    margin: 0 20px;
+    text-decoration: none;
+    font-size: 13pt;
+}
+
+.ÜstMenü .Kullanıcı a 
+{
+    color: #9f634e;
+    margin: 0 20px;
+    text-decoration: none;
+    font-size: 13pt;
+}
+
+.ÜstMenü .Kullanıcı a:hover 
+{
+    text-decoration: underline;
+}
+
+.GüvenliÇıkış
+{
+    float: right;
+    padding-right: 30px;
+    text-decoration: none;
+}
+
+.İçerikTaşıyıcı
+{
+
+}
+
+.AltMenü
+{
+    width: 100%;
+    background-color: #f6f6f6;
+    height: 30px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.AltMenü a 
+{
+    text-decoration: none;
+    padding: 8px 30px;
+    color: #9f634e;
+}
+
+.AltMenü a:hover 
+{
+    background-color: #9f634e;
+    color: #f6f6f6;
+}
+
+.FormTaşıyıcı
+{
+    padding-top: 15px;
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.FormBaşlık 
+{
+    padding: 10px;
+    text-align: center;
+    color: #9f634e;
+    background-color: #f6f6f6;
+    border: 1px solid #9f634e;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+
+.FormBaşlık h3 
+{
+    color: #9f634e;
+}
+
+.Formİçerik
+{
+    margin-top: 10px;
+    border: 1px solid #9f634e;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+
+.Sol 
+{
+    float: left;
+    width: 600px;
+    margin: 0px 20px;
+}
+
+.Sağ
+{
+    float: left;
+    width: 700px;
+    margin-left: 10px;
+}
+
+.Satır
+{
+    padding: 7px 0;
+    color: #9f634e;
+}
+
+.FormEtiket 
+{
+
+}
+
+.MetinKutu
+{
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #9f634e;
+}
+
+.MetinKutu:focus 
+{
+    outline: 1px solid #9f634e;
+}
+
+.MetinKutu:hover 
+{
+    border-color: #9f634e;
+}
+
+.FormButon 
+{
+    padding: 7px 15px;
+    background-color: #9f634e;
+    color: #f6f6f6;
+    border: 1px solid #9f634e;
+    border-radius: 20px;
+    font-size: 12pt;
+    font-family: Fabrizo;
+}
+
+.FormButon:hover 
+{
+    background-color: #7f9288;
+}
+
+.BaşarısızPanel
+{
+    background-color: #ff9494;
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid red;
+    margin: 15px 0;
+}
+
+.BaşarılıPanel
+{
+    background-color: #79ca79;
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid forestGreen;
+    margin: 15px 0;
+}
+
+.Tablo 
+{
+    width: 100%;
+    border: 1px solid #9f634e;
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.Tablo tr 
+{
+    
+}
+
+.Tablo tr th 
+{
+    border: 1px solid #9f634e;
+    border-bottom: 1px solid #9f634e;
+    border-top: none;
+    background-color: #f6f6f6;
+    text-align: left;
+    padding: 10px 7px;
+}
+
+.Tablo tr td 
+{
+    border: 1px solid #9f634e;
+    padding: 10px 5px;
+}
+
+.TabloButonDüzenle 
+{
+    background-color: #03489c;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 3px;
+    color: white;
+}
+
+.TabloButonSil 
+{
+    background-color: #c90909;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 3px;
+    color: white;
+}
+
+.TabloButonDurum 
+{
+    background-color: #00aaaa;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 3px;
+    color: white;
+}
+
+.ÜyePanel 
+{
+    width: 1000px;
+    padding: 20px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.ÜyePanel p 
+{
+    margin-bottom: 15px;
+    font-size: 13pt;
+    color: #9f634e;
+}
+
+.İcon 
+{
+    width: 20px;
+    margin-bottom: -3px;
+    margin-right: 5px;
+}
+
+.Edit 
+{
+    width: 17px;
+    padding: 4px;
+}
+
+.Arrow 
+{
+    width: 17px;
+    padding: 4px;
+}
+
+.Delete 
+{
+    width: 17px;
+    padding: 4px;
+}

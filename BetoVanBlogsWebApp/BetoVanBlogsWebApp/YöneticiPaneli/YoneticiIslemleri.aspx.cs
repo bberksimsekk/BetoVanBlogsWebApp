@@ -11,6 +11,7 @@ namespace BetoVanBlogsWebApp.YöneticiPaneli
     public partial class YöneticiIslemleri : System.Web.UI.Page
     {
         VeriModeli vm = new VeriModeli();
+
         protected void Page_Load(object sender, EventArgs e)
         {
             lv_kullanicilar.DataSource = vm.TumYoneticileriGetir();

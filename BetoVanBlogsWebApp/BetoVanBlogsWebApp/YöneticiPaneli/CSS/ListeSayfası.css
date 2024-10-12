@@ -2,31 +2,31 @@
 {
     padding: 10px;
     margin-bottom: 10px;
-    border-bottom: 1px solid silver;
+    border-bottom: 1px solid black;
+    text-align: center;
+    background-color: midnightblue;
+    color: white;
 }
 
 .Tablo 
 {
-    width: 1350px;
-}
-
-.Tablo tr 
-{
-
+    width: 1200px;
+    background-color: lightcyan;
 }
 
 .Tablo tr th 
 {
     background-color: #e9e9e9;
-    padding: 10px;
+    padding: 5px;
     text-align: left;
-    border: 1px solid silver;
+    border: 1px solid black;
+    text-align: center;
 }
 
 .Tablo tr td 
 {
-    border: 1px solid silver;
-    padding: 10px;
+    border: 1px solid black;
+    padding: 5px;
 }
 
 .Tablo .Alternate td 
@@ -36,7 +36,6 @@
 
 .TabloButon
 {
-    padding: 8px 5px;
     font-size: 10pt;
     border-radius: 3px;
     text-decoration: none;
@@ -44,23 +43,23 @@
 
 .TabloButon img 
 {
-    margin-bottom: -7px;
+
 }
 
-.Düzenle
+.Edit 
 {
-    background-color: #0092ff;
-    color: white;
+    width: 17px;
+    padding: 4px;
 }
 
-.Durum 
+.Arrow 
 {
-    background-color: #ffd800;
-    color: white;
+    width: 17px;
+    padding: 4px;
 }
 
-.Sil 
+.Delete 
 {
-    background-color: #ff0000;
-    color: white;
+    width: 17px;
+    padding: 4px;
 }

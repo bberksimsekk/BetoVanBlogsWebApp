@@ -4,79 +4,103 @@
     padding: 0;
 }
 
-.Body 
+.Body
 {
-    font-family: Cambria, sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
+    font-family: Cambria, Verdana, sans-serif;
 }
 
 .ÜstÇubuk
 {
-    background-color: #FE434E;
-    min-height: 80px;
+    background-image: url('../Adminresimler/pyatay.jpg');
+    min-height: 40px;
     color: white;
+    float: left;
+    width: 1318px;
+}
+
+.SolMenü
+{
+    width: 200px;
+    height: 680px;
+    background-image: url('../Adminresimler/pdikey.jpg');
+    background-size: cover;
+    float: left;
+}
+
+.Users 
+{
+    width: 100px;
+    margin: 20px;
+    margin-left: 50px;
+    color: blue;
+}
+
+.Users:hover 
+{
+    text-decoration: underline;
+    color: red;
+    cursor: pointer;
 }
 
 .AnaBaşlık
 {
-    padding: 10px 20px;
-    width: 200px;
+    padding: 20px 20px;
+    width: 450px;
     float: left;
+    margin-left: 400px;
 }
 
-.KullanıcıAlanı
+.KullanıcıAlanı 
 {
-    padding: 10px 20px;
+    padding: 10px;
+    margin: 10px;
     width: 300px;
     float: right;
-}
-
-.KullanıcıEleman
-{
-    padding-top: 15px;
-    padding-left: 10px;
-    color: white;
-    float: left;
-    text-decoration: none;
+    margin-right: -150px;
 }
 
 .KullanıcıEleman:hover 
 {
-    text-decoration: underline;
-}
-
-.AnaMenü
-{
-    width: 210px;
-    padding: 20px 0;
-    background-color: #e4e4e4;
-    height: 850px;
-    float: left;
-}
-
-.AnaMenü .Çizgi 
-{
-    border-bottom: 1px solid white;
-}
-
-.AnaMenü A
-{
-    text-decoration: none;
-    display: block;
-    color: #7a060d;
-    padding: 5px 15px;
-}
-
-.AnaMenü A:hover 
-{
-    color: white;
-    background-color: #d8a7a7;
+    color: red;
 }
 
 .Anaİçerik
 {
     float: left;
     padding: 20px;
+}
+
+.Satır
+{
+    margin-top: 30px;
+    margin-left: 20px;
+    padding: 5px;
+    color: white;
+}
+
+.Satır a 
+{
+    text-decoration: none;
+    color: white;
+}
+
+.Satır a:hover 
+{
+    color: red;
+    cursor: pointer;
+}
+
+.Icon
+{
+    width: 20px;
+    margin-bottom: -3px;
+    margin-right: 5px;
+}
+
+.Foto 
+{
+    width: 100px;
+    margin-left: 50px;
+    margin-top: 40px;
+    border-radius: 40px;
 }

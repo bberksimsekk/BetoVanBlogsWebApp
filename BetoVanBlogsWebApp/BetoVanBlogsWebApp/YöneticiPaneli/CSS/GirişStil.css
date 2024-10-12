@@ -6,17 +6,18 @@
 
 .Body 
 {
-    font-family: Calibri;
-    color: #464646;
-    background-color: #f2f2f2;
+    font-family: 'Times New Roman';
+    color: white;
+    background-image: url('../AdminResimler/background.png');
+    background-size: cover;
 }
 
-.Taşıyıcı 
+.Taşıyıcı
 {
     margin-left: auto;
     margin-right: auto;
     margin-top: 10%;
-    width: 820px;
+    width: 840px;
     box-shadow: 1px 13px 18px -10px rgba(0,0,0,0.76);
     -webkit-box-shadow: 1px 13px 18px -10px rgba(0,0,0,0.76);
     -moz-box-shadow: 1px 13px 18px -10px rgba(0,0,0,0.76);
@@ -24,30 +25,31 @@
 
 .Sol 
 {
-    background-color: white;
-    padding: 30px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 15px;
     width: 350px;
     float: left;
-    height: 350px;
+    height: 350px
 }
 
-.Sağ 
+.Sağ
 {
-    /*background-color: #fe4385;*/
-    background-image: url('../resimler/login-background.jpg');
     padding: 30px;
+    margin: 25px;
     width: 350px;
     float: left;
     height: 350px;
+    color: white;
     text-align: center;
 }
 
-.Başlık 
+.Başlık
 {
     margin-top: 90px;
 }
 
-.Satır 
+.Satır
 {
     padding: 10px 0;
 }
@@ -56,8 +58,9 @@
 {
     padding: 10px;
     border-radius: 20px;
-    border: none;
-    background-color: #efefef;
+    border: 2px solid blue;
+    background-color: white;
+    color: black;
     width: 328px;
 }
 
@@ -70,34 +73,43 @@
     text-decoration: none;
 }
 
+.ÜyeLink:hover 
+{
+    color: red;
+}
+
 .GirişButon 
 {
     border-radius: 20px;
+    background-color: black;
     color: white;
+    border: 1px solid blue;
     padding: 10px;
     text-decoration: none;
     width: 350px;
-    background-image: url('../resimler/login-background.jpg');
-    border: none;
     font-size: 12pt;
     cursor: pointer;
 }
 
 .GirişButon:hover 
 {
-    background-image: none;
-    background-color: #fe4385;
+    color: blue;
 }
 
-.Unuttum 
+.Şifre_Unuttum 
 {
-    color: dimgrey;
+    color: antiquewhite;
     text-decoration: none;
+}
+
+.Şifre_Unuttum:hover 
+{
+    color: orangered;
 }
 
 .PanelBaşarısız 
 {
-    background-color: #fe4385;
+    background-color: red;
     color: white;
     padding: 10px;
     width: 328px;
@@ -105,4 +117,3 @@
     border-bottom-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-

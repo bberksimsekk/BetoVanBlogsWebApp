@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace BetoVanBlogsWebApp.YöneticiPaneli
+namespace BetoVanBlogsWebApp.ÜyePaneli
 {
 
 
-    public partial class YoneticiMaster
+    public partial class UyePanel
     {
 
         /// <summary>
@@ -31,15 +31,6 @@ namespace BetoVanBlogsWebApp.YöneticiPaneli
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-
-        /// <summary>
-        /// img_profilFotografi control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Image img_profilFotografi;
 
         /// <summary>
         /// lbl_kullanici control.

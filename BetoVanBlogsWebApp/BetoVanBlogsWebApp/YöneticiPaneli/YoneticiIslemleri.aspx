@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" MasterPageFile="~/YöneticiPaneli/YoneticiMaster.Master" AutoEventWireup="true" CodeBehind="YoneticiIslemleri.aspx.cs" Inherits="BetoVanBlogsWebApp.YöneticiPaneli.YöneticiIslemleri" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/YöneticiPaneli/YoneticiMaster.Master" AutoEventWireup="true" CodeBehind="YoneticiIslemleri.aspx.cs" Inherits="BetoVanBlogsWebApp.YöneticiPaneli.YoneticiIslemleri" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="Css/FormSayfası.css" rel="stylesheet" />
@@ -17,7 +17,7 @@
                 <label>Ekleme Başarılı</label>
             </asp:Panel>
             <div class="Satır">
-                <label class="Formetiket">Yönetici Türü</label>
+                <label class="FormEtiket">Yönetici Türü</label>
                 <asp:RadioButtonList ID="rb_YoneticiTur_ID" runat="server" CssClass="MetinKutu">
                     <asp:ListItem Text="Admin" Value="1"></asp:ListItem>
                 </asp:RadioButtonList>
@@ -84,8 +84,8 @@
                     <td><%# Eval("Mail") %></td>
                     <td><%# Eval("Durum") %></td>
                     <td>
-                        <asp:LinkButton ID="lbtn_sil" runat="server" CommandArgument='<%# Eval("ID") %>' CommandName="Sil"><img src="AdminResimler/delete.png" class="Sil"/></asp:LinkButton>
-                        <asp:LinkButton ID="lbtn_durum" runat="server" CommandArgument='<%# Eval("ID") %>' CommandName="Durum"><img src="AdminResimler/edit.png" class="Düzenle" /></asp:LinkButton>
+                        <asp:LinkButton ID="lbtn_sil" runat="server" CommandArgument='<%# Eval("ID") %>' CommandName="Sil"><img src="AdminResimler/delete.png" class="Delete"/></asp:LinkButton>
+                        <asp:LinkButton ID="lbtn_durum" runat="server" CommandArgument='<%# Eval("ID") %>' CommandName="Durum"><img src="AdminResimler/edit.png" class="Edit" /></asp:LinkButton>
                     </td>
                 </tr>
             </ItemTemplate>

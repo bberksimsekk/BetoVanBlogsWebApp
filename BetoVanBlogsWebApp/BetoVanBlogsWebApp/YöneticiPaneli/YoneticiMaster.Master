@@ -4,45 +4,71 @@
 
 <html>
 <head runat="server">
-    <title>Beto Van Blogs Yönetici Paneli</title>
+    <title> BETO VAN Blogs Yönetim Paneli </title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
-    <link href="css/YöneticiStil.css" rel="stylesheet" />
+    <link href="CSS/YöneticiStil.css" rel="stylesheet" />
 
 </head>
 <body>
     <form id="form1" runat="server">
-    <div class="ÜstÇubuk">
-        <div class="AnaBaşlık">
-            <h2>Beto Van Blogs</h2>
-            <h5>Yönetici Paneli</h5>
-        </div>
-        <div class="KullanıcıAlanı">
-            <asp:Label ID="lbl_kullanici" runat="server" CssClass="KullanıcıEleman">Kullanıcı Adı(Yetki)</asp:Label>
-            <asp:LinkButton ID="lbtn_cikis" runat="server" CssClass="KullanıcıEleman" OnClick="lbtn_cikis_Click">Güvenli Çıkış</asp:LinkButton>
-        </div>
-        <div style="clear: both"></div>
-    </div>
-    <div>
-        <div class="AnaMenü">
-            <a href="YöneticiAnaSayfa.aspx">Anasayfa</a>
-            <div class="Çizgi"></div>
-            <a href="KategoriEkle.aspx">Kategori Ekle</a>
-            <a href="KategoriListele.aspx">Kategori Listele</a>
-            <div class="Çizgi"></div>
-            <a href="MakaleEkle.aspx">Makale Ekle</a>
-            <a href="MakaleListele.aspx">Makale Listele</a>
-            <div class="Çizgi"></div>
-            <a href="YöneticiDefault.aspx">Üyeler</a>
-            <a href="YöneticiDefault.aspx">Yorumlar</a>
-            <div class="Çizgi"></div>
-            <a href="YöneticiDefault.aspx">Yazar/Yönetici</a>
+        <div class="Anasayfa">
+            <div class="SolMenü">
+                <div class="ResimDiv">
+                     <asp:Image ID="img_profilFotografi" runat="server" CssClass="Foto" ImageUrl="../Resimler/MakaleResimleri/none.png"/><br />
+                     <asp:Label ID="lbl_kullanici" runat="server" CssClass="Users">Kullanıcı Adı</asp:Label>
+                    <br />
+                </div>
+                <div class="Items">
+                    <div class="Satır">
+                        <img src="AdminResimler/home.png" class="Icon" />
+                        <a href="YoneticiDefault.aspx">Anasayfa</a>
+                    </div>
+                    <div class="Satır">
+                        <img src="AdminResimler/add.png" class="Icon" />
+                        <a href="KategoriEkle.aspx">Kategori Ekle</a>
+                    </div>
+                    <div class="Satır">
+                        <img src="AdminResimler/list.png" class="Icon" />
+                        <a href="KategoriListele.aspx">Kategori Listele</a>
+                    </div>
+                    <div class="Satır">
+                        <img src="AdminResimler/articleadd.png" class="Icon" />
+                        <a href="MakaleEkle.aspx">Makale Ekle</a>
+                    </div>
+                    <div class="Satır">
+                        <img src="AdminResimler/table.png" class="Icon" />
+                        <a href="MakaleListele.aspx">Makale Listele</a>
+                    </div>
+                    <div class="Satır">
+                        <img src="AdminResimler/team.png" class="Icon" />
+                        <a href="Uyeler.aspx">Üyeler</a>
+                    </div>
+                    <div class="Satır">
+                        <img src="AdminResimler/comment.png" class="Icon" />
+                        <a href="Yorumlar.aspx">Yorumlar</a>
+                    </div>
+                    <div class="Satır">
+                        <img src="AdminResimler/admin.png" class="Icon" />
+                        <a href="YoneticiIslemleri.aspx">Yönetici İşlemleri</a>
+                    </div>
+                    <div style="clear: both"></div>
+                </div>
+            </div>
+            <div class="ÜstÇubuk">
+                <div class="AnaBaşlık">
+                    <h2> BETO VAN Blogs Yönetim Paneli </h2>
+                </div>
+                <div class="KullanıcıAlanı">
+                    <asp:LinkButton ID="lbtn_cikis" runat="server" CssClass="KullanıcıEleman" OnClick="lbtn_cikis_Click">Güvenli Çıkış</asp:LinkButton>
+                </div>
+                <div style="clear: both"></div>
+            </div>
         </div>
         <div class="Anaİçerik">
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>
-    </div>
-</form>
+    </form>
 </body>
 </html>

@@ -549,6 +549,38 @@ namespace VeriErişimKatmanı
             }
         }
 
+        public List<Kategori> TumKategorileriGetir(bool durum)
+        {
+            List<Kategori> kategoriler = new List<Kategori>();
+
+            try
+            {
+                Komut.CommandText = "SELECT ID, Isim, Aciklama, Durum FROM Kategoriler WHERE Durum=@d";
+                Komut.Parameters.Clear();
+                Komut.Parameters.AddWithValue("@d", durum);
+                Bağlantı.Open();
+                SqlDataReader okuyucu = Komut.ExecuteReader();
+                while (okuyucu.Read())
+                {
+                    Kategori kat = new Kategori();
+                    kat.ID = okuyucu.GetInt32(0);
+                    kat.Isim = okuyucu.GetString(1);
+                    kat.Aciklama = okuyucu.GetString(2);
+                    kat.Durum = okuyucu.GetBoolean(3);
+                    kategoriler.Add(kat);
+                }
+                return kategoriler;
+            }
+            catch
+            {
+                return null;
+            }
+            finally
+            {
+                Bağlantı.Close();
+            }
+        }
+
         #endregion
 
         #region Makale Metotları
