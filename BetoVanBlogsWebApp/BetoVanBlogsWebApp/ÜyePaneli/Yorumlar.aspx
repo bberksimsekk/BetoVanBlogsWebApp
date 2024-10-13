@@ -1,7 +1,7 @@
 ﻿<%@ Page Language="C#" MasterPageFile ="~/ÜyePaneli/UyePanel.Master" AutoEventWireup="true" CodeBehind="Yorumlar.aspx.cs" Inherits="BetoVanBlogsWebApp.ÜyePaneli.Yorumlar" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <link href="css/ÜyeGiriş.css" rel="stylesheet" />
+    <link href="CSS/ÜyeGiriş.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="FormTaşıyıcı">
@@ -30,8 +30,8 @@
                     <td><%# Eval("EklemeTarihi") %></td>
                     <td><%# Eval("Durum") %></td>
                     <td>
-                        <asp:LinkButton ID="lbtn_sil" runat="server" CommandArgument='<%# Eval("ID") %>' CommandName="sil"><img src="../YoneticiPanel/AdminResimler/delete.png" class="Delete" /></asp:LinkButton>
-                        <asp:LinkButton ID="lbtn_durum" runat="server" CommandArgument='<%# Eval("ID") %>' CommandName="durum"><img src="../YoneticiPanel/AdminResimler/edit.png" class="Edit" /></asp:LinkButton>
+                        <asp:LinkButton ID="lbtn_sil" runat="server" CommandArgument='<%# Eval("ID") %>' CommandName="sil"><img src="../YöneticiPaneli/AdminResimler/delete.png" class="Delete" /></asp:LinkButton>
+                        <asp:LinkButton ID="lbtn_durum" runat="server" CommandArgument='<%# Eval("ID") %>' CommandName="durum"><img src="../YöneticiPaneli/AdminResimler/edit.png" class="Edit" /></asp:LinkButton>
                     </td>
                 </tr>
             </ItemTemplate>

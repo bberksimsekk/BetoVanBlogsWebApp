@@ -1,15 +1,10 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="BetoVanBlogsWebApp.ÜyePaneli.Default1" %>
+﻿<%@ Page Language="C#" MasterPageFile="~/ÜyePaneli/UyePanel.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="BetoVanBlogsWebApp.ÜyePaneli.Default1" %>
 
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
-        <div>
-        </div>
-    </form>
-</body>
-</html>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <link href="CSS/ÜyeGiriş.css" rel="stylesheet" />
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+     <div class="ÜyePanel">
+     <p>BETO VAN Blogs Web'e Hoşgeldiniz. Bu Sitede Eğlenceli ve Keyifli Bloglar Yer Alıyor. O Yüzden Keyfinizi Bozmayın...</p>
+ </div>
+</asp:Content>

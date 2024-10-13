@@ -1,7 +1,7 @@
 ﻿<%@ Page Language="C#" MasterPageFile="~/Arayuz.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="BetoVanBlogsWebApp.Default" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <link href="Css/Arayuz.css" rel="stylesheet" />
+    <link href="CSS/Arayüz.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <asp:Repeater ID="lv_makaleler1" runat="server">
@@ -20,7 +20,7 @@
                     <%# Eval("Ozet") %>
          &nbsp;&nbsp;&nbsp;
                     <div class="Devamı">
-                        <a href='MakaleIcerik.aspx?MakaleID=<%# Eval("ID") %>'>
+                        <a href='Makaleİçerik.aspx?MakaleID=<%# Eval("ID") %>'>
                             <label>Devamını Oku</label></a>
                     </div>
                 </div>

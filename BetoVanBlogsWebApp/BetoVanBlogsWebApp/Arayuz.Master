@@ -5,7 +5,7 @@
 <head runat="server">
     <title> BETO VAN Blogs Web App </title>
     <asp:ContentPlaceHolder ID="head" runat="server">
-        <link href="Css/Arayuz.css" rel="stylesheet" />
+        <link href="CSS/Arayüz.css" rel="stylesheet" />
     </asp:ContentPlaceHolder>
 </head>
 <body>
@@ -18,9 +18,9 @@
                         <img src="Resimler/analogo.png" style="width: 100px;" /></a></h2>
             </div>
 
-            <div class="uyePanel">
+            <div class="ÜyePanel">
                 <asp:Panel ID="pnl_girisyok" runat="server" class="ÜyePanel">
-                    <a href="UyeGiris.aspx">Giriş Yap</a>
+                    <a href="UyeGiriş.aspx">Giriş Yap</a>
                     <a href="UyeOl.aspx">Üye Ol</a>
                     <a href="Hakkimizda.aspx">Hakkımızda</a>
                     <a href="Iletisim.aspx">İletişim</a>

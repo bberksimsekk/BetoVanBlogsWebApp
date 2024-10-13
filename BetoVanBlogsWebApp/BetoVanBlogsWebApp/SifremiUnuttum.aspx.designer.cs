@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace BetoVanBlogsWebApp.ÜyePaneli
+namespace BetoVanBlogsWebApp
 {
 
 
-    public partial class Profil
+    public partial class SifremiUnuttum
     {
 
         /// <summary>
@@ -42,66 +42,39 @@ namespace BetoVanBlogsWebApp.ÜyePaneli
         protected global::System.Web.UI.WebControls.Panel pnl_basarili;
 
         /// <summary>
-        /// tb_kullaniciadi control.
+        /// lbl_mesaj control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tb_kullaniciadi;
+        protected global::System.Web.UI.WebControls.Label lbl_mesaj;
 
         /// <summary>
-        /// tb_isim control.
+        /// tb_mail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tb_isim;
+        protected global::System.Web.UI.WebControls.TextBox tb_mail;
 
         /// <summary>
-        /// tb_soyisim control.
+        /// tb_yenisifre control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tb_soyisim;
+        protected global::System.Web.UI.WebControls.TextBox tb_yenisifre;
 
         /// <summary>
-        /// tb_email control.
+        /// btn_tikla control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tb_email;
-
-        /// <summary>
-        /// tb_sifre control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tb_sifre;
-
-        /// <summary>
-        /// cb_durum control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox cb_durum;
-
-        /// <summary>
-        /// lbtn_ekle control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button lbtn_ekle;
+        protected global::System.Web.UI.WebControls.Button btn_tikla;
     }
 }

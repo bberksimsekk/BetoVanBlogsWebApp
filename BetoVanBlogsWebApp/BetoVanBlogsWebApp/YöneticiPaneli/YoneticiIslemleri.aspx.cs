@@ -8,7 +8,7 @@ using VeriErişimKatmanı;
 
 namespace BetoVanBlogsWebApp.YöneticiPaneli
 {
-    public partial class YöneticiIslemleri : System.Web.UI.Page
+    public partial class YoneticiIslemleri : System.Web.UI.Page
     {
         VeriModeli vm = new VeriModeli();
 

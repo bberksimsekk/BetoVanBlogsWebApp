@@ -1,0 +1,620 @@
+﻿*, h1, h2, h3, h4, h5, h6 
+{
+    margin: 0;
+    padding: 0;
+}
+
+.Body
+{
+    font-family: Fabrizo;
+}
+
+.Geçici
+{
+    min-height: 500px;
+    border: 1px solid silver;
+}
+
+.AnaTaşıyıcı 
+{
+    width: 1000px;
+    margin: 0px auto;
+}
+
+.SayfaBaşlık 
+{
+    width: 100px;
+    padding: 10px 0;
+    color: #FE434E;
+    float: left;
+}
+
+.ÜstPanel
+{
+    height: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.ÜstPanel a 
+{
+    font-family: Fabrizo;
+    text-decoration: none;
+    font-size: 11pt;
+    color: #131419;
+    margin-left: 20px;
+    font-family: Fabrizo;
+}
+
+.ÜstPanel a:hover 
+{
+    color: dimgray;
+}
+
+.ÜyePanel 
+{
+    width: 500px;
+    float: right;
+    padding: 20px 0;
+    background-color: white;
+}
+
+.ÜyePanel a 
+{
+    text-decoration: none;
+    color: darkblue;
+    float: right;
+    margin-left: 20px;
+}
+
+.ÜyePanel a:hover 
+{
+    color: red;
+}
+
+.Ayraç
+{
+    border-bottom: 1px solid silver;
+}
+
+.Menü
+{
+    padding: 10px 0px;
+    font-size: 14pt;
+}
+
+.Menü a 
+{
+    padding-right: 10px;
+    color: darkgreen;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.Menü a:hover 
+{
+    color: #c20e18;
+    text-decoration: underline;
+}
+
+.Taşıyıcı
+{
+    width: 1200px;
+    margin: 0px auto;
+    padding: 10px;
+}
+
+.LogoPanel 
+{
+    text-align: center;
+    padding: 25px;
+}
+
+.LogoPanel a 
+{
+    text-decoration: none;
+    font-size: 25pt;
+    color: black;
+}
+
+.LogoPanel a img 
+{
+    float: left;
+    width: 15px;
+    height: 15px;
+    padding-top: 10px;
+    padding: 5px;
+}
+
+.KategoriMenü
+{
+    border: 2px solid #f6f6f6;
+    text-align: center;
+}
+
+.MenüEleman 
+{
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 10pt;
+}
+
+.MenüEleman:hover 
+{
+    color: dimgray;
+}
+
+.SolPanel 
+{
+    padding-top: 15px;
+    width: 100px;
+    float: left;
+    margin-left: 150px;
+}
+
+.İçerik 
+{
+    width: 750px;
+    float: left;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.SağPanel 
+{
+    width: 230px;
+    height: auto;
+    padding-top: 15px;
+    float: right;
+    margin-right: 150px;
+}
+
+.SağPanel label 
+{
+    background-color: #f6f6f6;
+    width: 250px;
+    text-align: center;
+    font-size: 13pt;
+    padding: 15px;
+}
+
+.SağPanel label2 
+{
+    text-align: center;
+    font-size: 11pt;
+    width: 200px;
+    color: dimgray;
+}
+
+.SağPanel img 
+{
+    display: block;
+    margin: 20px auto 0;
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+}
+
+.SağPanel a 
+{
+    display: block;
+    width: 100px;
+    height: 25px;
+    background-color: #9f634e;
+    border-radius: 15px;
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+.SağPanel a label3 
+{
+    display: block;
+    text-decoration: none;
+    font-family: Fabrizo;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+.SağPanel a label3:hover 
+{
+    border-radius: 15px;
+    background-color: #7f9288;
+}
+
+.Hakkımızda
+{
+    background-image: url('../resimler/hakkimizdaresimler/hakkimizda.jpeg');
+    height: 855px;
+    background-size: cover;
+    color: white;
+}
+
+.Hakkımızda label 
+{
+    font-size: 15pt;
+}
+
+.Hakkımızda p 
+{
+    margin-bottom: 30px;
+}
+
+.Referans 
+{
+    margin-left: 20px;
+    padding: 20px;
+    float: left;
+}
+
+.MakaleAlanı
+{
+    width: 800px;
+    float: left;
+}
+
+.Makale .Resim 
+{
+
+}
+
+.Makale .Resim img 
+{
+    width: 120px;
+    height: 120px;
+}
+
+.Makale .Başlık
+{
+    padding: 10px 0px;
+}
+
+.Makale .Başlık h2 
+{
+    color: black;
+}
+
+.Makale .Başlık h2:hover 
+{
+    color: dimgray;
+}
+
+.Makale .Başlık a 
+{
+    color: black;
+    text-decoration: none;
+    font-family: Fabrizo;
+}
+
+.Makale .Bilgi 
+{
+    font-size: 11pt;
+}
+
+.Makale .Özet 
+{
+    padding: 5px 0px;
+}
+
+.Makale .Devamı a 
+{
+    display: block;
+    width: 150px;
+    text-decoration: none;
+    font-family: Fabrizo;
+    color: white;
+    text-align: center;
+    padding: 3px;
+    border-radius: 15px;
+    background-color: rgb(39,16,4);
+    cursor: pointer;
+}
+
+.Makale .Devamı a:hover 
+{
+    background-color: rgb(191,109,40);
+    cursor: pointer;
+}
+
+.ÖzelSayfalayıcı 
+{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.ÖzelSayfalayıcı a 
+{
+    display: inline-block;
+    padding: 4px 8px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px; 
+    margin: 0 5px;
+}
+
+.ÖzelSayfalayıcı a:hover 
+{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+.AltPanel 
+{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border: 1px solid #9f634e;
+    background-color: #9f634e;
+    height: 10px;
+}
+
+.GirişKutu 
+{
+    margin: 150px auto;
+    width: 600px;
+    height: 450px;
+}
+
+.GirişKutu .Başlık
+{
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(39,16,4);
+    color: white;
+}
+
+.GirişForm 
+{
+    padding: 20px;
+    border-top: 1px solid rgb(39,16,4);
+}
+
+.FormMetinKutu 
+{
+    padding: 12px;
+    width: 100%;
+    height: 30px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    font-size: 13pt;
+    border: 3px solid rgb(191,109,40);
+    border-radius: 10px;
+    color: black;
+}
+
+.FormGirişButon 
+{
+    padding: 10px 10px;
+    background-color: rgb(39,16,4);
+    color: white;
+    font-size: 12pt;
+    font-weight: 900;
+    font-family: Fabrizo;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.FormGirişButon:hover 
+{
+    background-color: rgb(191,109,40);
+    cursor: pointer;
+}
+
+.ÜyeFormEtiket 
+{
+    color: white;
+}
+
+.YorumKutusu 
+{
+    background-color: #f6f6f6;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 15px;
+    width: 700px;
+}
+
+.YorumKutusu h3 
+{
+    color: dimgray;
+    text-align: center;
+    padding: 10px;
+}
+
+.Yorum 
+{
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.İçerik 
+{
+    margin-bottom: 5px;
+}
+
+.Bilgiler 
+{
+    color: #888;
+    font-size: 0.9em;
+}
+
+.YorumPanel 
+{
+    padding-bottom: 100px;
+    border: 1px solid #f6f6f6;
+    background-color: #f6f6f6;
+    width: 730px;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.YorumPanel .Başlık h3 
+{
+    color: dimgray;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.FormYorumButon 
+{
+    padding: 7px 15px;
+    background-color: #9f634e;
+    color: white;
+    font-size: 12pt;
+    font-weight: 900;
+    font-family: Calibri;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.FormYorumButon:hover 
+{
+    background-color: #7f9288;
+}
+
+.İletişimSatır
+{
+    background-color: mistyrose;
+    border: 2px solid black;
+    text-align: center;
+    color: black;
+}
+
+.Ayraç
+{
+    border-bottom: 1px solid silver;
+}
+
+.İletişimİçerik 
+{
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.İletisimİçerik img 
+{
+    margin: 0 auto 10px;
+}
+
+.İletişimSatır h3 
+{
+    font-size: 15pt;
+    color: black;
+}
+
+.İletişimSatır a 
+{
+    text-decoration: none;
+    font-size: 15pt;
+    padding: 20px;
+    color: black;
+}
+
+.İletişimBaşlık
+{
+    width: 100%;
+    background-color: rgb(35, 13, 131);
+    color: white;
+    text-align: center;
+}
+
+.İletişimBaşlık label 
+{
+    font-size: 20pt;
+}
+
+.BaşarısızPanel 
+{
+    background-color: #e72525;
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid #e72525;
+    margin: 15px 0;
+}
+
+.BaşarılıPanel
+{
+    background-color: #79ca79;
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid forestGreen;
+    margin: 15px 0;
+}
+
+.ÜyeFormİçerik 
+{
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 15px;
+    text-align: center;
+}
+
+.Satır
+{
+    padding: 7px 0;
+    color: #9f634e;
+}
+
+.MetinKutu
+{
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #9f634e;
+}
+
+.MetinKutu:focus 
+{
+    outline: 1px solid #9f634e;
+}
+    
+.MetinKutu:hover 
+{
+    border-color: #9f634e;
+}
+
+.TıklaButon 
+{
+    padding: 7px 15px;
+    background-color: rgb(39,16,4);
+    color: white;
+    font-size: 12pt;
+    font-weight: 900;
+    font-family: Fabrizo;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    border-radius: 30px;
+    margin: 10px auto;
+}
+
+.TıklaButon:hover 
+{
+    background-color: rgb(191,109,40);
+    cursor: pointer;
+}
+
+.Taşıyıcı
+{
+    width: auto;
+    background-image: url('../resimler/uyepanel/uyeol2.png');
+    background-size: cover;
+}

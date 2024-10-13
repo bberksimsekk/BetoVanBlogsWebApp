@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" MasterPageFile ="~/ÜyePaneli/UyePanel.Master" AutoEventWireup="true" CodeBehind="Profil.aspx.cs" Inherits="BetoVanBlogsWebApp.ÜyePaneli.Default" %>
+﻿<%@ Page Language="C#" MasterPageFile="~/ÜyePaneli/UyePanel.Master" AutoEventWireup="true" CodeBehind="Profil.aspx.cs" Inherits="BetoVanBlogsWebApp.ÜyePaneli.Profil" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="CSS/ÜyeGiriş.css" rel="stylesheet" />
@@ -17,7 +17,7 @@
         </asp:Panel>
         <div class="Satır">
             <label class="FormEtiket">Kullanıcı Adı</label>
-            <asp:TextBox ID="tb_kullaniciadi" runat="server" CssClass="MetinKutu"></asp:TextBox>
+            <asp:TextBox ID="tb_kullaniciadi" runat="server" CssClass="MetinKutu" ></asp:TextBox>
         </div>
         <div class="Satır">
             <label class="FormEtiket">İsim</label>

@@ -67,7 +67,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CSS\Arayüz.css" />
     <Content Include="Default.aspx" />
+    <Content Include="Makaleİçerik.aspx" />
+    <Content Include="Reklamlar\120x600.gif" />
+    <Content Include="Reklamlar\160x600.gif" />
+    <Content Include="Reklamlar\250x250.gif" />
+    <Content Include="Reklamlar\300x250.gif" />
+    <Content Include="Reklamlar\336x280.gif" />
+    <Content Include="Reklamlar\468x60.gif" />
+    <Content Include="Reklamlar\728x90.gif" />
+    <Content Include="Resimler\MakaleResimleri\none.png" />
+    <Content Include="SifremiUnuttum.aspx" />
+    <Content Include="UyeGiriş.aspx" />
     <Content Include="Web.config" />
     <Content Include="YöneticiPaneli\AdminResimler\add.png" />
     <Content Include="YöneticiPaneli\AdminResimler\background.png" />
@@ -397,6 +409,7 @@
     <Content Include="YöneticiPaneli\CSS\YöneticiStil.css" />
     <Content Include="YöneticiPaneli\Giriş.aspx" />
     <Content Include="YöneticiPaneli\KategoriDuzenle.aspx" />
+    <Content Include="UyeOl.aspx" />
     <Content Include="ÜyePaneli\CSS\ÜyeGiriş.css" />
     <Content Include="ÜyePaneli\Yorumlar.aspx" />
   </ItemGroup>
@@ -415,7 +428,28 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Makaleİçerik.aspx.cs">
+      <DependentUpon>Makaleİçerik.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Makaleİçerik.aspx.designer.cs">
+      <DependentUpon>Makaleİçerik.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SifremiUnuttum.aspx.cs">
+      <DependentUpon>SifremiUnuttum.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SifremiUnuttum.aspx.designer.cs">
+      <DependentUpon>SifremiUnuttum.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UyeGiriş.aspx.cs">
+      <DependentUpon>UyeGiriş.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UyeGiriş.aspx.designer.cs">
+      <DependentUpon>UyeGiriş.aspx</DependentUpon>
+    </Compile>
     <Compile Include="YöneticiPaneli\Giriş.aspx.cs">
       <DependentUpon>Giriş.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -499,6 +533,13 @@
     </Compile>
     <Compile Include="YöneticiPaneli\YoneticiMaster.Master.designer.cs">
       <DependentUpon>YoneticiMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="UyeOl.aspx.cs">
+      <DependentUpon>UyeOl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UyeOl.aspx.designer.cs">
+      <DependentUpon>UyeOl.aspx</DependentUpon>
     </Compile>
     <Compile Include="ÜyePaneli\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>

@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace BetoVanBlogsWebApp.ÜyePaneli
+namespace BetoVanBlogsWebApp
 {
 
 
-    public partial class Profil
+    public partial class ÜyeOl
     {
 
         /// <summary>
@@ -24,13 +24,13 @@ namespace BetoVanBlogsWebApp.ÜyePaneli
         protected global::System.Web.UI.WebControls.Panel pnl_basarisiz;
 
         /// <summary>
-        /// lbl_hatamesaj control.
+        /// lbl_mesaj control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbl_hatamesaj;
+        protected global::System.Web.UI.WebControls.Label lbl_mesaj;
 
         /// <summary>
         /// pnl_basarili control.
@@ -40,15 +40,6 @@ namespace BetoVanBlogsWebApp.ÜyePaneli
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Panel pnl_basarili;
-
-        /// <summary>
-        /// tb_kullaniciadi control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tb_kullaniciadi;
 
         /// <summary>
         /// tb_isim control.
@@ -69,13 +60,22 @@ namespace BetoVanBlogsWebApp.ÜyePaneli
         protected global::System.Web.UI.WebControls.TextBox tb_soyisim;
 
         /// <summary>
-        /// tb_email control.
+        /// tb_kullanici control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tb_email;
+        protected global::System.Web.UI.WebControls.TextBox tb_kullanici;
+
+        /// <summary>
+        /// tb_mail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox tb_mail;
 
         /// <summary>
         /// tb_sifre control.
@@ -96,12 +96,12 @@ namespace BetoVanBlogsWebApp.ÜyePaneli
         protected global::System.Web.UI.WebControls.CheckBox cb_durum;
 
         /// <summary>
-        /// lbtn_ekle control.
+        /// btn_tikla control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button lbtn_ekle;
+        protected global::System.Web.UI.WebControls.Button btn_tikla;
     }
 }
