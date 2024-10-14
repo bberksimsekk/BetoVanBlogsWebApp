@@ -20,7 +20,7 @@
 
             <div class="ÜyePanel">
                 <asp:Panel ID="pnl_girisyok" runat="server" class="ÜyePanel">
-                    <a href="UyeGiriş.aspx">Giriş Yap</a>
+                    <a href="UyeGiris.aspx">Giriş Yap</a>
                     <a href="UyeOl.aspx">Üye Ol</a>
                     <a href="Hakkimizda.aspx">Hakkımızda</a>
                     <a href="Iletisim.aspx">İletişim</a>
@@ -55,7 +55,7 @@
             </div>
             <div class="ReklamAlanı">
                 <a href="https://www.turhost.com/r/104820/hosting">
-                    <img src="reklamlar/160x600.gif" style="margin-left: 40px;" />
+                    <img src="Reklamlar/160x600.gif" style="margin-left: 40px;" />
                 </a>
             </div>
             <div style="clear: both"></div>

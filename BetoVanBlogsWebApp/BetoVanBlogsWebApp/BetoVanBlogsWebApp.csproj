@@ -69,6 +69,8 @@
   <ItemGroup>
     <Content Include="CSS\Arayüz.css" />
     <Content Include="Default.aspx" />
+    <Content Include="Hakkimizda.aspx" />
+    <Content Include="Iletisim.aspx" />
     <Content Include="Makaleİçerik.aspx" />
     <Content Include="Reklamlar\120x600.gif" />
     <Content Include="Reklamlar\160x600.gif" />
@@ -77,9 +79,14 @@
     <Content Include="Reklamlar\336x280.gif" />
     <Content Include="Reklamlar\468x60.gif" />
     <Content Include="Reklamlar\728x90.gif" />
+    <Content Include="Resimler\Icon\email.png" />
+    <Content Include="Resimler\Icon\facebook.png" />
+    <Content Include="Resimler\Icon\instagram.png" />
     <Content Include="Resimler\MakaleResimleri\none.png" />
+    <Content Include="Resimler\UyePanel\uyeol2.png" />
+    <Content Include="Resimler\UyePanel\üyeol.jpg" />
     <Content Include="SifremiUnuttum.aspx" />
-    <Content Include="UyeGiriş.aspx" />
+    <Content Include="UyeGiris.aspx" />
     <Content Include="Web.config" />
     <Content Include="YöneticiPaneli\AdminResimler\add.png" />
     <Content Include="YöneticiPaneli\AdminResimler\background.png" />
@@ -428,6 +435,20 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Hakkimizda.aspx.cs">
+      <DependentUpon>Hakkimizda.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Hakkimizda.aspx.designer.cs">
+      <DependentUpon>Hakkimizda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Iletisim.aspx.cs">
+      <DependentUpon>Iletisim.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Iletisim.aspx.designer.cs">
+      <DependentUpon>Iletisim.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Makaleİçerik.aspx.cs">
       <DependentUpon>Makaleİçerik.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -443,12 +464,12 @@
     <Compile Include="SifremiUnuttum.aspx.designer.cs">
       <DependentUpon>SifremiUnuttum.aspx</DependentUpon>
     </Compile>
-    <Compile Include="UyeGiriş.aspx.cs">
-      <DependentUpon>UyeGiriş.aspx</DependentUpon>
+    <Compile Include="UyeGiris.aspx.cs">
+      <DependentUpon>UyeGiris.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="UyeGiriş.aspx.designer.cs">
-      <DependentUpon>UyeGiriş.aspx</DependentUpon>
+    <Compile Include="UyeGiris.aspx.designer.cs">
+      <DependentUpon>UyeGiris.aspx</DependentUpon>
     </Compile>
     <Compile Include="YöneticiPaneli\Giriş.aspx.cs">
       <DependentUpon>Giriş.aspx</DependentUpon>
@@ -615,7 +636,9 @@
       <Name>VeriErişimKatmanı</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Resimler\HakkimizdaResimler\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

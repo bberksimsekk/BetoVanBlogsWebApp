@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" MasterPageFile="~/Arayuz.Master" AutoEventWireup="true" CodeBehind="UyeGiriş.aspx.cs" Inherits="BetoVanBlogsWebApp.UyeGiriş" %>
+﻿<%@ Page Language="C#" MasterPageFile="~/Arayuz.Master" AutoEventWireup="true" CodeBehind="UyeGiris.aspx.cs" Inherits="BetoVanBlogsWebApp.UyeGiris" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="CSS/Arayüz.css" rel="stylesheet" />

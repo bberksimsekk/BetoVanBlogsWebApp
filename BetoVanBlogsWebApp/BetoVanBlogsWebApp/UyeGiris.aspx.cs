@@ -8,7 +8,7 @@ using VeriErişimKatmanı;
 
 namespace BetoVanBlogsWebApp
 {
-    public partial class UyeGiriş : System.Web.UI.Page
+    public partial class UyeGiris : System.Web.UI.Page
     {
         VeriModeli vm = new VeriModeli();
         protected void Page_Load(object sender, EventArgs e)

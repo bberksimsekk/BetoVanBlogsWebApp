@@ -11,7 +11,7 @@ namespace BetoVanBlogsWebApp
 {
 
 
-    public partial class UyeGiriş
+    public partial class UyeGiris
     {
 
         /// <summary>
